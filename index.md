@@ -27,16 +27,25 @@ Coq user to participate.
 Coq-related projects can be hosted in the [coq-community organization](https://github.com/coq-community) on GitHub
 whenever any of the following is the case:
 
-- the initial author has stopped maintaining the project and someone else is
-  volunteering to do so;
 - the project has become a collective work (several community members are
   actively working on it);
+- the initial author has stopped maintaining the project and someone else is
+  volunteering to do so;
 - the initial author is still maintaining the project but they want to
   encourage other community members to participate in the maintenance and
   possibly take over (and the project is indeed raising interest from the
   community);
 - the project is a tool of general interest and it makes sense to develop it
   collaboratively.
+
+Once a project has joined coq-community, community members collaborate to ensure:
+
+- project packages are continuously published on Coq's [OPAM package index](https://coq.inria.fr/packages)
+  and other relevant venues;
+- projects use best practices for automation (e.g., building and continuous integration) as
+  the project and Coq itself evolves;
+- projects provide rich metadata and documentation to enable application in other projects
+  and in research.
 
 Read more in the coq-community [manifesto](https://github.com/coq-community/manifesto).
 
