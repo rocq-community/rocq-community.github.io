@@ -57,34 +57,56 @@ Read more in the coq-community [manifesto](https://github.com/coq-community/mani
 
 ## Current Projects
 
-- [templates](https://github.com/coq-community/templates) - Templates for configuration files and scripts useful for maintaining Coq projects.
-- [coqoban](https://github.com/coq-community/coqoban) - Sokoban (in Coq).
-- [vscoq](https://github.com/coq-community/vscoq) - A Visual Studio Code extension for Coq.
-- [aac-tactics](https://github.com/coq-community/aac-tactics) - Coq plugin providing tactics for rewriting universally quantified equations, modulo associative (and possibly commutative) operators.
-- [docker-coq](https://github.com/coq-community/docker-coq) - Docker images of the Coq proof assistant.
-- [paramcoq](https://github.com/coq-community/paramcoq) - Coq plugin for parametricity.
+Below is a categorized list of projects currently hosted in coq-community.
+
+### Automation
+
 - [docker-base](https://github.com/coq-community/docker-base) - Parent image for Docker images of the Coq proof assistant.
-- [coqdocjs](https://github.com/coq-community/coqdocjs) - Collection of scripts to improve the output of coqdoc.
-- [coq-ext-lib](https://github.com/coq-community/coq-ext-lib) - A library of Coq definitions, theorems, and tactics.
-- [reglang](https://github.com/coq-community/reglang) - Regular Language Representations in Coq.
-- [lemma-overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
-- [chapar](https://github.com/coq-community/chapar) - A framework for verification of causal consistency for distributed key-value stores and their clients in Coq.
-- [huffman](https://github.com/coq-community/huffman) - Correctness proof of the Huffman coding algorithm in Coq.
-- [math-classes](https://github.com/coq-community/math-classes) - A library of abstract interfaces for mathematical structures in Coq.
-- [alea](https://github.com/coq-community/alea) - Coq library for reasoning on randomized algorithms.
+- [docker-coq](https://github.com/coq-community/docker-coq) - Docker images of the Coq proof assistant.
+- [templates](https://github.com/coq-community/templates) - Templates for configuration files and scripts useful for maintaining Coq projects.
+
+### Documentation and Tutorials
+
 - [awesome-coq](https://github.com/coq-community/awesome-coq) - A curated list of awesome Coq libraries, plugins, tools, verification projects, and resources.
-- [corn](https://github.com/coq-community/corn) - Coq Repository at Nijmegen.
-- [atbr](https://github.com/coq-community/atbr) - Coq library and tactic for deciding Kleene algebras.
-- [dblib](https://github.com/coq-community/dblib) - Coq library for working with de Bruijn indices.
-- [topology](https://github.com/coq-community/topology) - General Topology.
-- [semantics](https://github.com/coq-community/semantics) - A survey of semantics styles, from natural semantics through structural operational, axiomatic, and denotational semantics, to abstract interpretation.
-- [coq-art](https://github.com/coq-community/coq-art) - Coq code and exercises from the Coq'Art book.
-- [zorns-lemma](https://github.com/coq-community/zorns-lemma) - Library which develops some basic set theory.
-- [bits](https://github.com/coq-community/bits) - A formalization of bitset operations in Coq and the corresponding axiomatization and extraction to OCaml native integers.
-- [hoare-tut](https://github.com/coq-community/hoare-tut) - A Tutorial on Reflecting in Coq the generation of Hoare proof obligations.
-- [reduction-effects](https://github.com/coq-community/reduction-effects) - A Coq plugin to add reduction side effects to some Coq reduction strategies.
-- [qarith-stern-brocot](https://github.com/coq-community/qarith-stern-brocot) - Binary Rational Numbers
-- [bertrand](https://github.com/coq-community/bertrand) - Correctness of Knuth's algorithm for prime numbers.
-- [exact-real-arithmetic](https://github.com/coq-community/exact-real-arithmetic) - Exact real arithmetic in Coq.
-- [coq-performance-tests](https://github.com/coq-community/coq-performance-tests) - A library of Coq source files testing for performance regressions on Coq.
-- [stalmarck](https://github.com/coq-community/stalmarck) - A proof of Stålmarck's algorithm in Coq.
+- [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
+- [Semantics](https://github.com/coq-community/semantics) - A survey of semantics styles, from natural semantics through structural operational, axiomatic, and denotational semantics, to abstract interpretation.
+- [Coq'Art](https://github.com/coq-community/coq-art) - Coq code and exercises from the Coq'Art book.
+- [Hoare Tutorial](https://github.com/coq-community/hoare-tut) - A Tutorial on Reflecting in Coq the generation of Hoare proof obligations.
+
+### Interfaces
+
+- [coqdocjs](https://github.com/coq-community/coqdocjs) - Collection of scripts to improve the output of coqdoc.
+- [VSCoq](https://github.com/coq-community/vscoq) - A Visual Studio Code extension for Coq.
+
+### Libraries
+
+- [ALEA](https://github.com/coq-community/alea) - Coq library for reasoning on randomized algorithms.
+- [Bits](https://github.com/coq-community/bits) - A formalization of bitset operations in Coq and the corresponding axiomatization and extraction to OCaml native integers.
+- [Coq ExtLib](https://github.com/coq-community/coq-ext-lib) - A library of Coq definitions, theorems, and tactics.
+- [Coq performance tests](https://github.com/coq-community/coq-performance-tests) - A library of Coq source files testing for performance regressions on Coq.
+- [Dblib](https://github.com/coq-community/dblib) - Coq library for working with de Bruijn indices.
+- [RegLang](https://github.com/coq-community/reglang) - Regular Language Representations in Coq.
+
+### Plugins
+
+- [AAC Tactics](https://github.com/coq-community/aac-tactics) - Coq plugin providing tactics for rewriting universally quantified equations, modulo associative (and possibly commutative) operators.
+- [ATBR](https://github.com/coq-community/atbr) - Coq library and tactic for deciding Kleene algebras.
+- [ParamCoq](https://github.com/coq-community/paramcoq) - Coq plugin for parametricity.
+- [Reduction Effects](https://github.com/coq-community/reduction-effects) - A Coq plugin to add reduction side effects to some Coq reduction strategies.
+
+### Type Theory and Mathematics
+
+- [CoRN](https://github.com/coq-community/corn) - Coq Repository at Nijmegen.
+- [Math Classes](https://github.com/coq-community/math-classes) - A library of abstract interfaces for mathematical structures in Coq.
+- [Topology](https://github.com/coq-community/topology) - General topology in Coq.
+- [Zorn's Lemma](https://github.com/coq-community/zorns-lemma) - Library which develops some basic set theory in Coq.
+- [QArith Stern-Brocot](https://github.com/coq-community/qarith-stern-brocot) - Binary rational numbers in Coq.
+- [Exact real arithmetic](https://github.com/coq-community/exact-real-arithmetic) - Exact real arithmetic in Coq.
+
+### Verified Software
+
+- [Coqoban](https://github.com/coq-community/coqoban) - Sokoban (in Coq).
+- [Chapar](https://github.com/coq-community/chapar) - A framework for verification of causal consistency for distributed key-value stores and their clients in Coq.
+- [Huffman](https://github.com/coq-community/huffman) - Correctness proof of the Huffman coding algorithm in Coq.
+- [Bertrand](https://github.com/coq-community/bertrand) - Correctness of Knuth's algorithm for prime numbers.
+- [Stalmarck](https://github.com/coq-community/stalmarck) - A proof of Stålmarck's algorithm in Coq.
