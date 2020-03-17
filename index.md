@@ -17,9 +17,9 @@ header-includes:
 
 [<img src="coq-logo.svg" align="right" width="100">](https://github.com/coq-community/manifesto)
 
-coq-community is project for a collaborative, community-driven effort for the long-term
+coq-community is a project for a collaborative, community-driven effort for the long-term
 maintenance and advertisement of packages for the [Coq proof assistant](https://coq.inria.fr). The organization
-is run by volunteer Coq users. Everyone is welcome - you don't need to be a very experienced
+is run by volunteer Coq users. Everyone is welcome—you don't need to be a very experienced
 Coq user to participate.
 
 ## Project Hosting
