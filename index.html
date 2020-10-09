@@ -1,11 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>coq-community</title>
-  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
   <style type="text/css"> body {font-family: Arial, Helvetica; margin-left: 5em; font-size: large;} </style>
   <style type="text/css"> h1 {margin-left: 0em; padding: 0px; text-align: center} </style>
   <style type="text/css"> h2 {margin-left: 0em; padding: 0px; color: #580909} </style>
@@ -13,15 +18,15 @@
   <style type="text/css"> body { width: 1100px; margin-left: 30px; }</style>
 </head>
 <body>
-<div id="header">
+<header id="title-block-header">
 <h1 class="title">coq-community</h1>
-</div>
+</header>
 <div style="text-align:left">
 <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" height="25" style="border:0px"> <a href="https://github.com/coq-community/manifesto">View coq-community on GitHub</a> <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" height="25" style="border:0px">
 </div>
 <h2 id="about">About</h2>
 <p><a href="https://github.com/coq-community/manifesto"><img src="coq-logo.svg" align="right" width="100"></a></p>
-<p>coq-community is a project for a collaborative, community-driven effort for the long-term maintenance and advertisement of packages for the <a href="https://coq.inria.fr">Coq proof assistant</a>. The organization is run by volunteer Coq users. Everyone is welcome—you don't need to be a very experienced Coq user to participate.</p>
+<p>coq-community is a project for a collaborative, community-driven effort for the long-term maintenance and advertisement of packages for the <a href="https://coq.inria.fr">Coq proof assistant</a>. The organization is run by volunteer Coq users. Everyone is welcome—you don’t need to be a very experienced Coq user to participate.</p>
 <h2 id="project-hosting">Project Hosting</h2>
 <p>Coq-related projects can be hosted in the <a href="https://github.com/coq-community">coq-community organization</a> on GitHub whenever any of the following is the case:</p>
 <ul>
@@ -32,7 +37,7 @@
 </ul>
 <p>Once a project has joined coq-community, community members collaborate to ensure:</p>
 <ul>
-<li>project packages are continuously published on Coq's <a href="https://coq.inria.fr/packages">OPAM package index</a> and other relevant venues;</li>
+<li>project packages are continuously published on Coq’s <a href="https://coq.inria.fr/packages">OPAM package index</a> and other relevant venues;</li>
 <li>projects use best practices for automation (e.g., building and continuous integration) as the project and Coq itself evolves;</li>
 <li>projects provide rich metadata and documentation to enable application in other projects and in research.</li>
 </ul>
@@ -41,7 +46,7 @@
 <ul>
 <li>Chat with us on <a href="https://coq.zulipchat.com/#narrow/stream/237663-coq-community-devs.20.26.20users">Zulip</a></li>
 <li>Volunteer and contribute on <a href="https://github.com/coq-community/manifesto/issues">GitHub</a></li>
-<li>Discuss with us on Coq's <a href="https://coq.discourse.group">Discourse forum</a></li>
+<li>Discuss with us on Coq’s <a href="https://coq.discourse.group">Discourse forum</a></li>
 </ul>
 <h2 id="current-projects">Current Projects</h2>
 <p>Below is a categorized list of projects currently hosted in coq-community.</p>
@@ -50,14 +55,16 @@
 <li><a href="https://github.com/coq-community/docker-base">Docker-Base</a> - Parent image for Docker images of the Coq proof assistant.</li>
 <li><a href="https://github.com/coq-community/docker-coq">Docker-Coq</a> - Docker images of the Coq proof assistant.</li>
 <li><a href="https://github.com/coq-community/docker-coq-action">Docker-Coq-Action</a> - GitHub Action using Docker-Coq.</li>
+<li><a href="https://github.com/coq-community/run-coq-bug-minimizer">run-coq-bug-minimizer</a> - Repository for triggering runs of the Coq bug minimizer using GitHub Actions.</li>
 <li><a href="https://github.com/coq-community/templates">Templates</a> - Templates for configuration files and scripts useful for maintaining Coq projects.</li>
 </ul>
 <h3 id="documentation-and-tutorials">Documentation and Tutorials</h3>
 <ul>
 <li><a href="https://github.com/coq-community/awesome-coq">Awesome Coq</a> - Curated list of awesome Coq libraries, plugins, tools, verification projects, and resources.</li>
+<li><a href="https://github.com/coq-community/coq100">Coq 100</a> - Statements of famous theorems proven in Coq.</li>
 <li><a href="https://github.com/coq-community/lemma-overloading">Lemma Overloading</a> - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.</li>
 <li><a href="https://github.com/coq-community/semantics">Semantics</a> - Survey of semantics styles, from natural semantics through structural operational, axiomatic, and denotational semantics, to abstract interpretation.</li>
-<li><a href="https://github.com/coq-community/coq-art">Coq'Art</a> - Coq code and exercises from the Coq'Art book.</li>
+<li><a href="https://github.com/coq-community/coq-art">Coq’Art</a> - Coq code and exercises from the Coq’Art book.</li>
 <li><a href="https://github.com/coq-community/hoare-tut">Hoare Tutorial</a> - Tutorial on reflecting in Coq the generation of Hoare proof obligations.</li>
 </ul>
 <h3 id="interfaces">Interfaces</h3>
@@ -68,6 +75,7 @@
 <h3 id="libraries">Libraries</h3>
 <ul>
 <li><a href="https://github.com/coq-community/alea">ALEA</a> - Coq library for reasoning on randomized algorithms.</li>
+<li><a href="https://github.com/coq-community/almost-full">Almost Full</a> - Coq development of almost-full relations, including the Ramsey Theorem, useful for proving termination.</li>
 <li><a href="https://github.com/coq-community/bits">Bits</a> - Formalization of bitset operations in Coq and the corresponding axiomatization and extraction to OCaml native integers.</li>
 <li><a href="https://github.com/coq-community/coq-ext-lib">Coq ExtLib</a> - Library of Coq definitions, theorems, and tactics.</li>
 <li><a href="https://github.com/coq-community/coq-performance-tests">Coq performance tests</a> - Library of Coq source files for testing performance regressions on Coq.</li>
@@ -81,24 +89,33 @@
 <li><a href="https://github.com/coq-community/paramcoq">ParamCoq</a> - Coq plugin for parametricity.</li>
 <li><a href="https://github.com/coq-community/reduction-effects">Reduction Effects</a> - Coq plugin to add reduction side effects to some Coq reduction strategies.</li>
 </ul>
+<h3 id="tools">Tools</h3>
+<ul>
+<li><a href="https://github.com/coq-community/coqffi">coqffi</a> - Tool for generating Coq FFI bindings to OCaml libraries.</li>
+<li><a href="https://github.com/coq-community/proviola">Proviola</a> - Tool for reanimation of Coq proofs.</li>
+</ul>
 <h3 id="type-theory-and-mathematics">Type Theory and Mathematics</h3>
 <ul>
+<li><a href="https://github.com/coq-community/comp-dec-modal">Completeness and Decidability of Modal Logic Calculi</a> - Constructive proofs of soundness and completeness for K, K*, CTL, PDL, and PDL with converse.</li>
 <li><a href="https://github.com/coq-community/corn">CoRN</a> - Coq Repository at Nijmegen.</li>
+<li><a href="https://github.com/coq-community/gaia">Gaia</a> - Implementation of books from Bourbaki’s Elements of Mathematics in Coq.</li>
 <li><a href="https://github.com/coq-community/graph-theory">Graph Theory</a> - Library of formalized graph theory results in Coq.</li>
+<li><a href="https://github.com/coq-community/HighSchoolGeometry">High School Geometry</a> - Geometry in Coq for French high school.</li>
 <li><a href="https://github.com/coq-community/math-classes">Math Classes</a> - Library of abstract interfaces for mathematical structures in Coq.</li>
 <li><a href="https://github.com/coq-community/topology">Topology</a> - General topology in Coq.</li>
-<li><a href="https://github.com/coq-community/zorns-lemma">Zorn's Lemma</a> - Library which develops some basic set theory in Coq.</li>
+<li><a href="https://github.com/coq-community/zorns-lemma">Zorn’s Lemma</a> - Library which develops some basic set theory in Coq.</li>
 <li><a href="https://github.com/coq-community/qarith-stern-brocot">QArith Stern-Brocot</a> - Binary rational numbers in Coq.</li>
 <li><a href="https://github.com/coq-community/exact-real-arithmetic">Exact real arithmetic</a> - Exact real arithmetic in Coq.</li>
 </ul>
 <h3 id="verified-software">Verified Software</h3>
 <ul>
-<li><a href="https://github.com/coq-community/bertrand">Bertrand</a> - Correctness of Knuth's algorithm for prime numbers in Coq.</li>
-<li><a href="https://github.com/coq-community/buchberger">Buchberger</a> - Verified implementation of Buchberger's algorithm for computing Gröbner bases in Coq.</li>
+<li><a href="https://github.com/coq-community/bertrand">Bertrand</a> - Correctness of Knuth’s algorithm for prime numbers in Coq.</li>
+<li><a href="https://github.com/coq-community/buchberger">Buchberger</a> - Verified implementation of Buchberger’s algorithm for computing Gröbner bases in Coq.</li>
 <li><a href="https://github.com/coq-community/coqoban">Coqoban</a> - Sokoban (in Coq).</li>
 <li><a href="https://github.com/coq-community/chapar">Chapar</a> - Framework for verification of causal consistency for distributed key-value stores and their clients in Coq.</li>
 <li><a href="https://github.com/coq-community/huffman">Huffman</a> - Correctness proof of the Huffman coding algorithm in Coq.</li>
-<li><a href="https://github.com/coq-community/stalmarck">Stalmarck</a> - Correctness proof of Stålmarck's algorithm in Coq.</li>
+<li><a href="https://github.com/coq-community/jmlcoq">JMLCoq</a> - Coq definition of JML and a verified runtime assertion checker.</li>
+<li><a href="https://github.com/coq-community/stalmarck">Stalmarck</a> - Correctness proof of Stålmarck’s algorithm in Coq.</li>
 </ul>
 </body>
 </html>
