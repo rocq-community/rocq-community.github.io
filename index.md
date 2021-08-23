@@ -20,7 +20,7 @@ header-includes:
 
 coq-community is a project for a collaborative, community-driven effort for the long-term
 maintenance and advertisement of packages for the [Coq proof assistant](https://coq.inria.fr). The organization
-is run by volunteer Coq users. Everyone is welcome—you don't need to be a very experienced
+is run by volunteer Coq users. Everyone is welcome - you don't need to be a very experienced
 Coq user to participate.
 
 ## Project Hosting
@@ -48,7 +48,7 @@ Once a project has joined coq-community, community members collaborate to ensure
 - projects provide rich metadata and documentation to enable application in other projects
   and in research.
 
-Read more in the coq-community [manifesto](https://github.com/coq-community/manifesto).
+More information can be found in the coq-community [manifesto](https://github.com/coq-community/manifesto), in particular on the process for [proposing a new package](https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md#proposing-a-new-package).
 
 ## Contact
 
@@ -58,10 +58,12 @@ Read more in the coq-community [manifesto](https://github.com/coq-community/mani
 
 ## Current Projects
 
-Below is a categorized list of projects currently hosted in coq-community.
+Below is a categorized list of active projects currently hosted in coq-community.
 
 ### Automation
 
+- [Coq Nix Toolbox](https://github.com/coq-community/coq-nix-toolbox) - Nix helper scripts to automate local builds and CI for Coq.
+- [coq-performance-tests-plots-history](https://github.com/coq-community/coq-performance-tests-plots-history) - Repository with plot history for Coq performance tests.
 - [Docker-Base](https://github.com/coq-community/docker-base) - Parent image for Docker images of the Coq proof assistant.
 - [Docker-Coq](https://github.com/coq-community/docker-coq) - Docker images of the Coq proof assistant.
 - [Docker-Coq-Action](https://github.com/coq-community/docker-coq-action) - GitHub Action using Docker-Coq.
@@ -70,32 +72,35 @@ Below is a categorized list of projects currently hosted in coq-community.
 
 ### Documentation and Tutorials
 
+- [100 famous theorems proved using Coq](https://github.com/coq-community/coq-100-theorems) - Repository tracking the theorems that have been proved in Coq from a list of 100 famous theorems.
 - [Awesome Coq](https://github.com/coq-community/awesome-coq) - Curated list of awesome Coq libraries, plugins, tools, verification projects, and resources.
-- [Coq 100](https://github.com/coq-community/coq100) - Statements of famous theorems proven in Coq.
-- [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
-- [Semantics](https://github.com/coq-community/semantics) - Survey of semantics styles, from natural semantics through structural operational, axiomatic, and denotational semantics, to abstract interpretation.
 - [Coq'Art](https://github.com/coq-community/coq-art) - Coq code and exercises from the Coq'Art book.
 - [Hoare Tutorial](https://github.com/coq-community/hoare-tut) - Tutorial on reflecting in Coq the generation of Hoare proof obligations.
+- [Hydra battles and Cie](https://github.com/coq-community/hydra-battles) - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq (collaborative, documented, includes exercises).
+- [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
+- [Semantics](https://github.com/coq-community/semantics) - Survey of semantics styles, from natural semantics through structural operational, axiomatic, and denotational semantics, to abstract interpretation.
 
 ### Interfaces
 
-- [coqdocjs](https://github.com/coq-community/coqdocjs) - Collection of scripts to improve the output of coqdoc.
+- [coqdocjs](https://github.com/coq-community/coqdocjs) - Collection of scripts to improve the HTML output of coqdoc.
 - [VSCoq](https://github.com/coq-community/vscoq) - Visual Studio Code extension for Coq.
 
 ### Libraries
 
 - [ALEA](https://github.com/coq-community/alea) - Coq library for reasoning on randomized algorithms.
 - [Almost Full](https://github.com/coq-community/almost-full) - Coq development of almost-full relations, including the Ramsey Theorem, useful for proving termination.
+- [Autosubst](https://github.com/coq-community/autosubst) - Coq library for parallel de Bruijn substitutions.
 - [Bits](https://github.com/coq-community/bits) - Formalization of bitset operations in Coq and the corresponding axiomatization and extraction to OCaml native integers.
 - [Coq ExtLib](https://github.com/coq-community/coq-ext-lib) - Library of Coq definitions, theorems, and tactics.
-- [Coq performance tests](https://github.com/coq-community/coq-performance-tests) - Library of Coq source files for testing performance regressions on Coq.
+- [Coq performance tests](https://github.com/coq-community/coq-performance-tests) - Library of source files for testing Coq performance regressions.
 - [Dblib](https://github.com/coq-community/dblib) - Coq library for working with de Bruijn indices.
+- [Generic Environments](https://github.com/coq-community/generic-environments) - Library which provides an abstract data type of environments.
 - [RegLang](https://github.com/coq-community/reglang) - Regular language representations in Coq.
 
 ### Plugins
 
 - [AAC Tactics](https://github.com/coq-community/aac-tactics) - Coq plugin providing tactics for rewriting universally quantified equations, modulo associative (and possibly commutative) operators.
-- [ATBR](https://github.com/coq-community/atbr) - Coq library and tactic for deciding Kleene algebras.
+- [ATBR](https://github.com/coq-community/atbr) - Coq library and plugin tactic for deciding Kleene algebras.
 - [ParamCoq](https://github.com/coq-community/paramcoq) - Coq plugin for parametricity.
 - [Reduction Effects](https://github.com/coq-community/reduction-effects) - Coq plugin to add reduction side effects to some Coq reduction strategies.
 
@@ -106,16 +111,18 @@ Below is a categorized list of projects currently hosted in coq-community.
 
 ### Type Theory and Mathematics
 
-- [Completeness and Decidability of Modal Logic Calculi](https://github.com/coq-community/comp-dec-modal) - Constructive proofs of soundness and completeness for K, K*, CTL, PDL, and PDL with converse.
-- [CoRN](https://github.com/coq-community/corn) - Coq Repository at Nijmegen.
+- [Binary Rational Numbers](https://github.com/coq-community/qarith-stern-brocot) - Coq development of rational numbers as finite binary lists.
+- [Completeness and Decidability of Modal Logic Calculi](https://github.com/coq-community/comp-dec-modal) - Constructive proofs of soundness and completeness for the modal logics K, K*, CTL, PDL, and PDL with converse.
+- [CoRN](https://github.com/coq-community/corn) - Repository of constructive mathematics formalized in Coq, including the algebraic hierarchy and real calculus.
+- [Coqtail](https://github.com/coq-community/coqtail-math) - Library of mathematical theorems and tools in Coq, ranging from arithmetic to real and complex analysis.
+- [Exact real arithmetic](https://github.com/coq-community/exact-real-arithmetic) - Exact real arithmetic in Coq.
 - [Gaia](https://github.com/coq-community/gaia) - Implementation of books from Bourbaki's Elements of Mathematics in Coq.
+- [Goedel](https://github.com/coq-community/goedel) - The Gödel-Rosser 1st incompleteness theorem in Coq.
 - [Graph Theory](https://github.com/coq-community/graph-theory) - Library of formalized graph theory results in Coq.
 - [High School Geometry](https://github.com/coq-community/HighSchoolGeometry) - Geometry in Coq for French high school.
 - [Math Classes](https://github.com/coq-community/math-classes) - Library of abstract interfaces for mathematical structures in Coq.
-- [Topology](https://github.com/coq-community/topology) - General topology in Coq.
-- [Zorn's Lemma](https://github.com/coq-community/zorns-lemma) - Library which develops some basic set theory in Coq.
-- [QArith Stern-Brocot](https://github.com/coq-community/qarith-stern-brocot) - Binary rational numbers in Coq.
-- [Exact real arithmetic](https://github.com/coq-community/exact-real-arithmetic) - Exact real arithmetic in Coq.
+- [Pocklington](https://github.com/coq-community/pocklington) - Pocklington's criterion for primality in Coq.
+- [Topology](https://github.com/coq-community/topology) - General topology and set theory in Coq.
 
 ### Verified Software
 
@@ -125,4 +132,6 @@ Below is a categorized list of projects currently hosted in coq-community.
 - [Chapar](https://github.com/coq-community/chapar) - Framework for verification of causal consistency for distributed key-value stores and their clients in Coq.
 - [Huffman](https://github.com/coq-community/huffman) - Correctness proof of the Huffman coding algorithm in Coq.
 - [JMLCoq](https://github.com/coq-community/jmlcoq) - Coq definition of JML and a verified runtime assertion checker.
-- [Stalmarck](https://github.com/coq-community/stalmarck) - Correctness proof of Stålmarck's algorithm in Coq.
+- [regexp-Brzozowski](https://github.com/coq-community/regexp-Brzozowski) - Coq decision procedure for regular expression equivalence.
+- [Stalmarck](https://github.com/coq-community/stalmarck) - Correctness proof in Coq of Stålmarck's algorithm for proving tautologies.
+- [Sudoku](https://github.com/coq-community/sudoku) - Certified sudoku solver in Coq.
