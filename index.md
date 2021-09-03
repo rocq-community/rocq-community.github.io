@@ -89,8 +89,9 @@ Below is a categorized list of active projects currently hosted in coq-community
 
 - [ALEA](https://github.com/coq-community/alea) - Coq library for reasoning on randomized algorithms.
 - [Almost Full](https://github.com/coq-community/almost-full) - Coq development of almost-full relations, including the Ramsey Theorem, useful for proving termination.
-- [Autosubst](https://github.com/coq-community/autosubst) - Coq library for parallel de Bruijn substitutions.
+- [Autosubst](https://github.com/coq-community/autosubst) - Coq library and tactics for parallel de Bruijn substitutions.
 - [Bits](https://github.com/coq-community/bits) - Formalization of bitset operations in Coq and the corresponding axiomatization and extraction to OCaml native integers.
+- [CoqEAL](https://github.com/coq-community/coqeal) - Framework to ease change of data representations in proofs.
 - [Coq ExtLib](https://github.com/coq-community/coq-ext-lib) - Library of Coq definitions, theorems, and tactics.
 - [Coq performance tests](https://github.com/coq-community/coq-performance-tests) - Library of source files for testing Coq performance regressions.
 - [Dblib](https://github.com/coq-community/dblib) - Coq library for working with de Bruijn indices.
@@ -101,7 +102,7 @@ Below is a categorized list of active projects currently hosted in coq-community
 
 - [AAC Tactics](https://github.com/coq-community/aac-tactics) - Coq plugin providing tactics for rewriting universally quantified equations, modulo associative (and possibly commutative) operators.
 - [ATBR](https://github.com/coq-community/atbr) - Coq library and plugin tactic for deciding Kleene algebras.
-- [ParamCoq](https://github.com/coq-community/paramcoq) - Coq plugin for parametricity.
+- [Paramcoq](https://github.com/coq-community/paramcoq) - Coq plugin for parametricity.
 - [Reduction Effects](https://github.com/coq-community/reduction-effects) - Coq plugin to add reduction side effects to some Coq reduction strategies.
 
 ### Tools
