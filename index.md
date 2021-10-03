@@ -76,7 +76,7 @@ Below is a categorized list of active projects currently hosted in coq-community
 - [Awesome Coq](https://github.com/coq-community/awesome-coq) - Curated list of awesome Coq libraries, plugins, tools, verification projects, and resources.
 - [Coq'Art](https://github.com/coq-community/coq-art) - Coq code and exercises from the Coq'Art book.
 - [Hoare Tutorial](https://github.com/coq-community/hoare-tut) - Tutorial on reflecting in Coq the generation of Hoare proof obligations.
-- [Hydra battles and Cie](https://github.com/coq-community/hydra-battles) - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq (collaborative, documented, includes exercises).
+- [Hydras, Ordinals & Co.](https://github.com/coq-community/hydra-battles) - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq (collaborative, documented, includes exercises).
 - [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
 - [Semantics](https://github.com/coq-community/semantics) - Survey of semantics styles, from natural semantics through structural operational, axiomatic, and denotational semantics, to abstract interpretation.
 
