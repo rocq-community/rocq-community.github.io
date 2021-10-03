@@ -63,6 +63,7 @@ Below is a categorized list of active projects currently hosted in coq-community
 ### Automation
 
 - [Coq Nix Toolbox](https://github.com/coq-community/coq-nix-toolbox) - Nix helper scripts to automate local builds and CI for Coq.
+- [coq-performance-tests](https://github.com/coq-community/coq-performance-tests) - Library of source files for testing Coq performance regressions.
 - [coq-performance-tests-plots-history](https://github.com/coq-community/coq-performance-tests-plots-history) - Repository with plot history for Coq performance tests.
 - [Docker-Base](https://github.com/coq-community/docker-base) - Parent image for Docker images of the Coq proof assistant.
 - [Docker-Coq](https://github.com/coq-community/docker-coq) - Docker images of the Coq proof assistant.
@@ -93,7 +94,6 @@ Below is a categorized list of active projects currently hosted in coq-community
 - [Bits](https://github.com/coq-community/bits) - Formalization of bitset operations in Coq and the corresponding axiomatization and extraction to OCaml native integers.
 - [CoqEAL](https://github.com/coq-community/coqeal) - Framework to ease change of data representations in proofs.
 - [Coq ExtLib](https://github.com/coq-community/coq-ext-lib) - Library of Coq definitions, theorems, and tactics.
-- [Coq performance tests](https://github.com/coq-community/coq-performance-tests) - Library of source files for testing Coq performance regressions.
 - [Dblib](https://github.com/coq-community/dblib) - Coq library for working with de Bruijn indices.
 - [Generic Environments](https://github.com/coq-community/generic-environments) - Library which provides an abstract data type of environments.
 - [RegLang](https://github.com/coq-community/reglang) - Regular language representations in Coq.
@@ -104,7 +104,7 @@ Below is a categorized list of active projects currently hosted in coq-community
 - [ATBR](https://github.com/coq-community/atbr) - Coq library and plugin tactic for deciding Kleene algebras.
 - [coq-dpdpgraph](https://github.com/coq-community/coq-dpdgraph) - Plugin and tools for obtaining dependencies between Coq objects (definitions, theorems) and produce graphs.
 - [Paramcoq](https://github.com/coq-community/paramcoq) - Coq plugin for parametricity.
-- [Reduction Effects](https://github.com/coq-community/reduction-effects) - Coq plugin to add reduction side effects to some Coq reduction strategies.
+- [Reduction Effects](https://github.com/coq-community/reduction-effects) - Coq plugin to add side effects to some Coq reduction strategies.
 
 ### Tools
 
@@ -137,4 +137,4 @@ Below is a categorized list of active projects currently hosted in coq-community
 - [JMLCoq](https://github.com/coq-community/jmlcoq) - Coq definition of JML and a verified runtime assertion checker.
 - [regexp-Brzozowski](https://github.com/coq-community/regexp-Brzozowski) - Coq decision procedure for regular expression equivalence.
 - [Stalmarck](https://github.com/coq-community/stalmarck) - Correctness proof in Coq of Stålmarck's algorithm for proving tautologies.
-- [Sudoku](https://github.com/coq-community/sudoku) - Certified sudoku solver in Coq.
+- [Sudoku](https://github.com/coq-community/sudoku) - Certified Sudoku solver in Coq.
