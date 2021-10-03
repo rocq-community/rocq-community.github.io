@@ -102,6 +102,7 @@ Below is a categorized list of active projects currently hosted in coq-community
 
 - [AAC Tactics](https://github.com/coq-community/aac-tactics) - Coq plugin providing tactics for rewriting universally quantified equations, modulo associative (and possibly commutative) operators.
 - [ATBR](https://github.com/coq-community/atbr) - Coq library and plugin tactic for deciding Kleene algebras.
+- [coq-dpdpgraph](https://github.com/coq-community/coq-dpdgraph) - Plugin and tools for obtaining dependencies between Coq objects (definitions, theorems) and produce graphs.
 - [Paramcoq](https://github.com/coq-community/paramcoq) - Coq plugin for parametricity.
 - [Reduction Effects](https://github.com/coq-community/reduction-effects) - Coq plugin to add reduction side effects to some Coq reduction strategies.
 
@@ -122,14 +123,15 @@ Below is a categorized list of active projects currently hosted in coq-community
 - [Graph Theory](https://github.com/coq-community/graph-theory) - Library of formalized graph theory results in Coq.
 - [High School Geometry](https://github.com/coq-community/HighSchoolGeometry) - Geometry in Coq for French high school.
 - [Math Classes](https://github.com/coq-community/math-classes) - Library of abstract interfaces for mathematical structures in Coq.
+- [Matrix Canonical Forms](https://github.com/coq-community/matrix_canonical_forms) - Normal forms for matrices in Coq using the Mathematical Components library.
 - [Pocklington](https://github.com/coq-community/pocklington) - Pocklington's criterion for primality in Coq.
 - [Topology](https://github.com/coq-community/topology) - General topology and set theory in Coq.
 
 ### Verified Software
 
-- [Bertrand](https://github.com/coq-community/bertrand) - Correctness of Knuth's algorithm for prime numbers in Coq.
+- [Bertrand](https://github.com/coq-community/bertrand) - Coq proof of Bertrand's postulate on existence of primes, with an application to the correctness of Knuth's algorithm for prime numbers.
 - [Buchberger](https://github.com/coq-community/buchberger) - Verified implementation of Buchberger's algorithm for computing Gröbner bases in Coq.
-- [Coqoban](https://github.com/coq-community/coqoban) - Sokoban (in Coq).
+- [Coqoban](https://github.com/coq-community/coqoban) - Coq implementation of Sokoban, the Japanese warehouse keepers' game.
 - [Chapar](https://github.com/coq-community/chapar) - Framework for verification of causal consistency for distributed key-value stores and their clients in Coq.
 - [Huffman](https://github.com/coq-community/huffman) - Correctness proof of the Huffman coding algorithm in Coq.
 - [JMLCoq](https://github.com/coq-community/jmlcoq) - Coq definition of JML and a verified runtime assertion checker.
