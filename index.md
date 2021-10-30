@@ -77,7 +77,7 @@ Below is a categorized list of active projects currently hosted in coq-community
 - [Awesome Coq](https://github.com/coq-community/awesome-coq) - Curated list of awesome Coq libraries, plugins, tools, verification projects, and resources.
 - [Coq'Art](https://github.com/coq-community/coq-art) - Coq code and exercises from the Coq'Art book.
 - [Hoare Tutorial](https://github.com/coq-community/hoare-tut) - Tutorial on reflecting in Coq the generation of Hoare proof obligations.
-- [Hydras, Ordinals & Co.](https://github.com/coq-community/hydra-battles) - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq (collaborative, documented, includes exercises).
+- [Hydras & Co.](https://github.com/coq-community/hydra-battles) - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq (collaborative, documented, includes exercises).
 - [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
 - [Semantics](https://github.com/coq-community/semantics) - Survey of semantics styles, from natural semantics through structural operational, axiomatic, and denotational semantics, to abstract interpretation.
 
@@ -136,5 +136,5 @@ Below is a categorized list of active projects currently hosted in coq-community
 - [Huffman](https://github.com/coq-community/huffman) - Correctness proof of the Huffman coding algorithm in Coq.
 - [JMLCoq](https://github.com/coq-community/jmlcoq) - Coq definition of JML and a verified runtime assertion checker.
 - [regexp-Brzozowski](https://github.com/coq-community/regexp-Brzozowski) - Coq decision procedure for regular expression equivalence.
-- [Stalmarck](https://github.com/coq-community/stalmarck) - Correctness proof in Coq of Stålmarck's algorithm for proving tautologies.
+- [Stalmarck](https://github.com/coq-community/stalmarck) - Verified implementation in Coq of Stålmarck's algorithm for proving tautologies.
 - [Sudoku](https://github.com/coq-community/sudoku) - Certified Sudoku solver in Coq.
