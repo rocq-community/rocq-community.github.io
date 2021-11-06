@@ -123,7 +123,6 @@ Below is a categorized list of active projects currently hosted in coq-community
 - [Graph Theory](https://github.com/coq-community/graph-theory) - Library of formalized graph theory results in Coq.
 - [High School Geometry](https://github.com/coq-community/HighSchoolGeometry) - Geometry in Coq for French high school.
 - [Math Classes](https://github.com/coq-community/math-classes) - Library of abstract interfaces for mathematical structures in Coq.
-- [Matrix Canonical Forms](https://github.com/coq-community/matrix_canonical_forms) - Normal forms for matrices in Coq using the Mathematical Components library.
 - [Pocklington](https://github.com/coq-community/pocklington) - Pocklington's criterion for primality in Coq.
 - [Topology](https://github.com/coq-community/topology) - General topology and set theory in Coq.
 
