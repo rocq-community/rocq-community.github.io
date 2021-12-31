@@ -21,13 +21,13 @@ header-includes:
 coq-community is a project for a collaborative, community-driven effort for the long-term
 maintenance and advertisement of packages for the [Coq proof assistant](https://coq.inria.fr).
 The organization is run by volunteer Coq users. Everyone is welcome - you don't need to be a
-very experienced Coq user to participate. See our
+very experienced Coq user to participate. See the
 [contributing guide](https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md)
 for more information on how to get involved.
 
 ## Project Hosting
 
-Coq-related projects can be hosted in the [coq-community organization](https://github.com/coq-community) on GitHub
+Repositories for Coq-related projects can be hosted in the [coq-community organization on GitHub](https://github.com/coq-community)
 whenever any of the following is the case:
 
 - the project has become a collective work (several community members are
@@ -38,19 +38,20 @@ whenever any of the following is the case:
   encourage other community members to participate in the maintenance and
   possibly take over (and the project is indeed raising interest from the
   community);
-- the project is a tool of general interest and it makes sense to develop it
-  collaboratively.
+- the project is a library or tool of general interest and it makes sense to
+  develop it collaboratively.
 
 Once a project has joined coq-community, community members collaborate to ensure:
 
-- project packages are continuously published on Coq's [opam package index](https://coq.inria.fr/packages)
+- project package definitions are continuously published in Coq's [opam package index](https://coq.inria.fr/packages)
   and other relevant venues;
 - projects use best practices for automation (e.g., building and continuous integration) as
   the project and Coq itself evolves;
 - projects provide rich metadata and documentation to enable application in other projects
   and in research.
 
-More details can be found in the coq-community [manifesto](https://github.com/coq-community/manifesto), in particular on the process for [proposing a new package](https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md#proposing-a-new-package).
+More details can be found in the coq-community [manifesto](https://github.com/coq-community/manifesto),
+in particular on the process for [proposing a new package](https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md#proposing-a-new-package).
 
 ## Contact
 
@@ -60,7 +61,10 @@ More details can be found in the coq-community [manifesto](https://github.com/co
 
 ## Current Projects
 
-Below is a categorized list of active projects currently hosted in coq-community. A star :star: indicates that the project is suitable for study or (re)use, while a warning sign :warning: indicates that the project is experimental or for other reasons not currently recommended for (re)use.
+Below is a categorized list of active projects currently hosted in coq-community.
+A star :star: indicates that the project is recommended for (re)use, while
+a warning sign :warning: indicates that the project is experimental or for other
+reasons not currently recommended for (re)use.
 
 ### Automation
 
