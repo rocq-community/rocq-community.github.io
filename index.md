@@ -104,6 +104,7 @@ Below is a categorized list of active projects currently hosted in coq-community
 
 - [AAC Tactics](https://github.com/coq-community/aac-tactics) :star: - Coq plugin providing tactics for rewriting universally quantified equations, modulo associative (and possibly commutative) operators.
 - [ATBR](https://github.com/coq-community/atbr) - Coq library and plugin tactic for deciding Kleene algebras.
+- [Bignums](https://github.com/coq-community/bignums) :star: - Coq library of arbitrarily large numbers, providing BigN, BigZ, BigQ that used to be part of the standard library.
 - [coq-dpdpgraph](https://github.com/coq-community/coq-dpdgraph) - Plugin and tools for obtaining dependencies between Coq objects (definitions, theorems) and produce graphs.
 - [Paramcoq](https://github.com/coq-community/paramcoq) - Coq plugin for parametricity.
 - [Reduction Effects](https://github.com/coq-community/reduction-effects) :warning: - Coq plugin to add side effects to some Coq reduction strategies.
