@@ -19,9 +19,11 @@ header-includes:
 [<img src="coq-logo.svg" align="right" width="100">](https://github.com/coq-community/manifesto)
 
 coq-community is a project for a collaborative, community-driven effort for the long-term
-maintenance and advertisement of packages for the [Coq proof assistant](https://coq.inria.fr). The organization
-is run by volunteer Coq users. Everyone is welcome - you don't need to be a very experienced
-Coq user to participate.
+maintenance and advertisement of packages for the [Coq proof assistant](https://coq.inria.fr).
+The organization is run by volunteer Coq users. Everyone is welcome - you don't need to be a
+very experienced Coq user to participate. See our
+[contributing guide](https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md)
+for more information on how to get involved.
 
 ## Project Hosting
 
@@ -41,14 +43,14 @@ whenever any of the following is the case:
 
 Once a project has joined coq-community, community members collaborate to ensure:
 
-- project packages are continuously published on Coq's [OPAM package index](https://coq.inria.fr/packages)
+- project packages are continuously published on Coq's [opam package index](https://coq.inria.fr/packages)
   and other relevant venues;
 - projects use best practices for automation (e.g., building and continuous integration) as
   the project and Coq itself evolves;
 - projects provide rich metadata and documentation to enable application in other projects
   and in research.
 
-More information can be found in the coq-community [manifesto](https://github.com/coq-community/manifesto), in particular on the process for [proposing a new package](https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md#proposing-a-new-package).
+More details can be found in the coq-community [manifesto](https://github.com/coq-community/manifesto), in particular on the process for [proposing a new package](https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md#proposing-a-new-package).
 
 ## Contact
 
@@ -58,23 +60,23 @@ More information can be found in the coq-community [manifesto](https://github.co
 
 ## Current Projects
 
-Below is a categorized list of active projects currently hosted in coq-community.
+Below is a categorized list of active projects currently hosted in coq-community. A star :star: indicates that the project is suitable for study or (re)use, while a warning sign :warning: indicates that the project is experimental or for other reasons not currently recommended for (re)use.
 
 ### Automation
 
 - [Coq Nix Toolbox](https://github.com/coq-community/coq-nix-toolbox) - Nix helper scripts to automate local builds and CI for Coq.
-- [coq-performance-tests](https://github.com/coq-community/coq-performance-tests) - Library of source files for testing Coq performance regressions.
-- [coq-performance-tests-plots-history](https://github.com/coq-community/coq-performance-tests-plots-history) - Repository with plot history for Coq performance tests.
+- [coq-performance-tests](https://github.com/coq-community/coq-performance-tests) :warning: - Library of source files for testing Coq performance regressions.
+- [coq-performance-tests-plots-history](https://github.com/coq-community/coq-performance-tests-plots-history) :warning: - Repository with plot history for Coq performance tests.
 - [Docker-Base](https://github.com/coq-community/docker-base) - Parent image for Docker images of the Coq proof assistant.
-- [Docker-Coq](https://github.com/coq-community/docker-coq) - Docker images of the Coq proof assistant.
-- [Docker-Coq-Action](https://github.com/coq-community/docker-coq-action) - GitHub Action using Docker-Coq.
-- [run-coq-bug-minimizer](https://github.com/coq-community/run-coq-bug-minimizer) - Repository for triggering runs of the Coq bug minimizer using GitHub Actions.
+- [Docker-Coq](https://github.com/coq-community/docker-coq) :star: - Docker images of the Coq proof assistant.
+- [Docker-Coq-Action](https://github.com/coq-community/docker-coq-action) :star: - GitHub Action using Docker-Coq.
+- [run-coq-bug-minimizer](https://github.com/coq-community/run-coq-bug-minimizer) :warning: - Repository for triggering runs of the Coq bug minimizer using GitHub Actions.
 - [Templates](https://github.com/coq-community/templates) - Templates for configuration files and scripts useful for maintaining Coq projects.
 
 ### Documentation and Tutorials
 
 - [100 famous theorems proved using Coq](https://github.com/coq-community/coq-100-theorems) - Repository tracking the theorems that have been proved in Coq from a list of 100 famous theorems.
-- [Awesome Coq](https://github.com/coq-community/awesome-coq) - Curated list of awesome Coq libraries, plugins, tools, verification projects, and resources.
+- [Awesome Coq](https://github.com/coq-community/awesome-coq) :star: - Curated list of awesome Coq libraries, plugins, tools, verification projects, and resources.
 - [Coq'Art](https://github.com/coq-community/coq-art) - Coq code and exercises from the Coq'Art book.
 - [Hoare Tutorial](https://github.com/coq-community/hoare-tut) - Tutorial on reflecting in Coq the generation of Hoare proof obligations.
 - [Hydras & Co.](https://github.com/coq-community/hydra-battles) - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq (collaborative, documented, includes exercises).
@@ -89,40 +91,40 @@ Below is a categorized list of active projects currently hosted in coq-community
 ### Libraries
 
 - [ALEA](https://github.com/coq-community/alea) - Coq library for reasoning on randomized algorithms.
-- [Almost Full](https://github.com/coq-community/almost-full) - Coq development of almost-full relations, including the Ramsey Theorem, useful for proving termination.
+- [Almost Full](https://github.com/coq-community/almost-full) :warning: - Coq development of almost-full relations, including the Ramsey Theorem, useful for proving termination.
 - [Autosubst](https://github.com/coq-community/autosubst) - Coq library and tactics for parallel de Bruijn substitutions.
-- [Bits](https://github.com/coq-community/bits) - Formalization of bitset operations in Coq and the corresponding axiomatization and extraction to OCaml native integers.
+- [Bits](https://github.com/coq-community/bits) :warning: - Formalization of bitset operations in Coq and the corresponding axiomatization and extraction to OCaml native integers.
 - [CoqEAL](https://github.com/coq-community/coqeal) - Framework to ease change of data representations in proofs.
-- [Coq ExtLib](https://github.com/coq-community/coq-ext-lib) - Library of Coq definitions, theorems, and tactics.
+- [Coq ExtLib](https://github.com/coq-community/coq-ext-lib) :star: - Library of Coq definitions, theorems, and tactics.
 - [Dblib](https://github.com/coq-community/dblib) - Coq library for working with de Bruijn indices.
 - [Generic Environments](https://github.com/coq-community/generic-environments) - Library which provides an abstract data type of environments.
-- [RegLang](https://github.com/coq-community/reglang) - Regular language representations in Coq.
+- [RegLang](https://github.com/coq-community/reglang) :star: - Regular language representations in Coq.
 
 ### Plugins
 
-- [AAC Tactics](https://github.com/coq-community/aac-tactics) - Coq plugin providing tactics for rewriting universally quantified equations, modulo associative (and possibly commutative) operators.
+- [AAC Tactics](https://github.com/coq-community/aac-tactics) :star: - Coq plugin providing tactics for rewriting universally quantified equations, modulo associative (and possibly commutative) operators.
 - [ATBR](https://github.com/coq-community/atbr) - Coq library and plugin tactic for deciding Kleene algebras.
 - [coq-dpdpgraph](https://github.com/coq-community/coq-dpdgraph) - Plugin and tools for obtaining dependencies between Coq objects (definitions, theorems) and produce graphs.
 - [Paramcoq](https://github.com/coq-community/paramcoq) - Coq plugin for parametricity.
-- [Reduction Effects](https://github.com/coq-community/reduction-effects) - Coq plugin to add side effects to some Coq reduction strategies.
+- [Reduction Effects](https://github.com/coq-community/reduction-effects) :warning: - Coq plugin to add side effects to some Coq reduction strategies.
 
 ### Tools
 
 - [coqffi](https://github.com/coq-community/coqffi) - Tool for generating Coq FFI bindings to OCaml libraries.
-- [Proviola](https://github.com/coq-community/proviola) - Tool for reanimation of Coq proofs.
+- [Proviola](https://github.com/coq-community/proviola) :warning: - Tool for reanimation of Coq proofs.
 
 ### Type Theory and Mathematics
 
 - [Binary Rational Numbers](https://github.com/coq-community/qarith-stern-brocot) - Coq development of rational numbers as finite binary lists.
 - [Completeness and Decidability of Modal Logic Calculi](https://github.com/coq-community/comp-dec-modal) - Constructive proofs of soundness and completeness for the modal logics K, K*, CTL, PDL, and PDL with converse.
-- [CoRN](https://github.com/coq-community/corn) - Repository of constructive mathematics formalized in Coq, including the algebraic hierarchy and real calculus.
+- [CoRN](https://github.com/coq-community/corn) :star: - Repository of constructive mathematics formalized in Coq, including the algebraic hierarchy and real calculus.
 - [Coqtail](https://github.com/coq-community/coqtail-math) - Library of mathematical theorems and tools in Coq, ranging from arithmetic to real and complex analysis.
-- [Exact real arithmetic](https://github.com/coq-community/exact-real-arithmetic) - Exact real arithmetic in Coq.
-- [Gaia](https://github.com/coq-community/gaia) - Implementation of books from Bourbaki's Elements of Mathematics in Coq.
+- [Exact real arithmetic](https://github.com/coq-community/exact-real-arithmetic) :warning: - Exact real arithmetic in Coq.
+- [Gaia](https://github.com/coq-community/gaia) :star: - Implementation of books from Bourbaki's Elements of Mathematics in Coq.
 - [Goedel](https://github.com/coq-community/goedel) - The Gödel-Rosser 1st incompleteness theorem in Coq.
 - [Graph Theory](https://github.com/coq-community/graph-theory) - Library of formalized graph theory results in Coq.
 - [High School Geometry](https://github.com/coq-community/HighSchoolGeometry) - Geometry in Coq for French high school.
-- [Math Classes](https://github.com/coq-community/math-classes) - Library of abstract interfaces for mathematical structures in Coq.
+- [Math Classes](https://github.com/coq-community/math-classes) :star: - Library of abstract interfaces for mathematical structures in Coq.
 - [Pocklington](https://github.com/coq-community/pocklington) - Pocklington's criterion for primality in Coq.
 - [Topology](https://github.com/coq-community/topology) - General topology and set theory in Coq.
 
@@ -131,9 +133,9 @@ Below is a categorized list of active projects currently hosted in coq-community
 - [Bertrand](https://github.com/coq-community/bertrand) - Coq proof of Bertrand's postulate on existence of primes, with an application to the correctness of Knuth's algorithm for prime numbers.
 - [Buchberger](https://github.com/coq-community/buchberger) - Verified implementation of Buchberger's algorithm for computing Gröbner bases in Coq.
 - [Coqoban](https://github.com/coq-community/coqoban) - Coq implementation of Sokoban, the Japanese warehouse keepers' game.
-- [Chapar](https://github.com/coq-community/chapar) - Framework for verification of causal consistency for distributed key-value stores and their clients in Coq.
-- [Huffman](https://github.com/coq-community/huffman) - Correctness proof of the Huffman coding algorithm in Coq.
-- [JMLCoq](https://github.com/coq-community/jmlcoq) - Coq definition of JML and a verified runtime assertion checker.
-- [regexp-Brzozowski](https://github.com/coq-community/regexp-Brzozowski) - Coq decision procedure for regular expression equivalence.
+- [Chapar](https://github.com/coq-community/chapar) :warning: - Framework for verification of causal consistency for distributed key-value stores and their clients in Coq.
+- [Huffman](https://github.com/coq-community/huffman) :star: - Correctness proof of the Huffman coding algorithm in Coq.
+- [JMLCoq](https://github.com/coq-community/jmlcoq) :warning: - Coq definition of JML and a verified runtime assertion checker.
+- [Regexp Brzozowski](https://github.com/coq-community/regexp-Brzozowski) :warning: - Decision procedures in Coq for regular expression equivalence.
 - [Stalmarck](https://github.com/coq-community/stalmarck) - Verified implementation in Coq of Stålmarck's algorithm for proving tautologies.
 - [Sudoku](https://github.com/coq-community/sudoku) - Certified Sudoku solver in Coq.
