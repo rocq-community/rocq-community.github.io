@@ -120,6 +120,7 @@ reasons not currently recommended for (re)use.
 
 ### Type Theory and Mathematics
 
+- [Apery](https://github.com/coq-community/apery) - Proof in Coq, by computer algebra, that the real number ζ(3), known as Apéry's constant, is irrational.
 - [Binary Rational Numbers](https://github.com/coq-community/qarith-stern-brocot) - Coq development of rational numbers as finite binary lists.
 - [Completeness and Decidability of Modal Logic Calculi](https://github.com/coq-community/comp-dec-modal) - Constructive proofs of soundness and completeness for the modal logics K, K*, CTL, PDL, and PDL with converse.
 - [CoRN](https://github.com/coq-community/corn) :star: - Repository of constructive mathematics formalized in Coq, including the algebraic hierarchy and real calculus.
