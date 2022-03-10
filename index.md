@@ -126,6 +126,7 @@ reasons not currently recommended for (re)use.
 - [CoRN](https://github.com/coq-community/corn) :star: - Repository of constructive mathematics formalized in Coq, including the algebraic hierarchy and real calculus.
 - [Coqtail](https://github.com/coq-community/coqtail-math) - Library of mathematical theorems and tools in Coq, ranging from arithmetic to real and complex analysis.
 - [Exact real arithmetic](https://github.com/coq-community/exact-real-arithmetic) :warning: - Exact real arithmetic in Coq.
+- [Four Color Theorem](https://github.com/coq-community/fourcolor) :star: - Formal proof in Coq of the Four Color Theorem, a landmark result in graph theory.
 - [Gaia](https://github.com/coq-community/gaia) :star: - Implementation of books from Bourbaki's Elements of Mathematics in Coq.
 - [Goedel](https://github.com/coq-community/goedel) - The Gödel-Rosser 1st incompleteness theorem in Coq.
 - [Graph Theory](https://github.com/coq-community/graph-theory) - Library of formalized graph theory results in Coq.
