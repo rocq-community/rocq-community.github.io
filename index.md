@@ -83,7 +83,7 @@ reasons not currently recommended for (re)use.
 - [Awesome Coq](https://github.com/coq-community/awesome-coq) :star: - Curated list of awesome Coq libraries, plugins, tools, verification projects, and resources.
 - [Coq'Art](https://github.com/coq-community/coq-art) - Coq code and exercises from the Coq'Art book.
 - [Hoare Tutorial](https://github.com/coq-community/hoare-tut) - Tutorial on reflecting in Coq the generation of Hoare proof obligations.
-- [Hydras & Co.](https://github.com/coq-community/hydra-battles) - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq (collaborative, documented, includes exercises).
+- [Hydras & Co.](https://github.com/coq-community/hydra-battles) :star: - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq, including the Gödel-Rosser 1st incompleteness theorem (collaborative, documented, includes exercises).
 - [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
 - [Semantics](https://github.com/coq-community/semantics) - Survey of semantics styles, from natural semantics through structural operational, axiomatic, and denotational semantics, to abstract interpretation.
 
@@ -128,7 +128,6 @@ reasons not currently recommended for (re)use.
 - [Exact real arithmetic](https://github.com/coq-community/exact-real-arithmetic) :warning: - Exact real arithmetic in Coq.
 - [Four Color Theorem](https://github.com/coq-community/fourcolor) :star: - Formal proof in Coq of the Four Color Theorem, a landmark result in graph theory.
 - [Gaia](https://github.com/coq-community/gaia) :star: - Implementation of books from Bourbaki's Elements of Mathematics in Coq.
-- [Goedel](https://github.com/coq-community/goedel) - The Gödel-Rosser 1st incompleteness theorem in Coq.
 - [Graph Theory](https://github.com/coq-community/graph-theory) - Library of formalized graph theory results in Coq.
 - [High School Geometry](https://github.com/coq-community/HighSchoolGeometry) - Geometry in Coq for French high school.
 - [Math Classes](https://github.com/coq-community/math-classes) :star: - Library of abstract interfaces for mathematical structures in Coq.
@@ -143,6 +142,7 @@ reasons not currently recommended for (re)use.
 - [Chapar](https://github.com/coq-community/chapar) :warning: - Framework for verification of causal consistency for distributed key-value stores and their clients in Coq.
 - [Huffman](https://github.com/coq-community/huffman) :star: - Correctness proof of the Huffman coding algorithm in Coq.
 - [JMLCoq](https://github.com/coq-community/jmlcoq) :warning: - Coq definition of JML and a verified runtime assertion checker.
+- [Modular Finite Maps over Ordered Types](https://github.com/coq-community/coq-mmaps) - Several implementations of finite maps over arbitrary ordered types using Coq functors, including using red-black trees and AVL trees.
 - [Regexp Brzozowski](https://github.com/coq-community/regexp-Brzozowski) :warning: - Decision procedures in Coq for regular expression equivalence.
 - [Stalmarck](https://github.com/coq-community/stalmarck) - Verified implementation in Coq of Stålmarck's algorithm for proving tautologies.
 - [Sudoku](https://github.com/coq-community/sudoku) - Certified Sudoku solver in Coq.
