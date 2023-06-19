@@ -146,3 +146,4 @@ reasons not currently recommended for (re)use.
 - [Regexp Brzozowski](https://github.com/coq-community/regexp-Brzozowski) :warning: - Decision procedures in Coq for regular expression equivalence.
 - [Stalmarck](https://github.com/coq-community/stalmarck) - Verified implementation in Coq of Stålmarck's algorithm for proving tautologies.
 - [Sudoku](https://github.com/coq-community/sudoku) - Certified Sudoku solver in Coq.
+- [Tarjan and Kosaraju](https://github.com/coq-community/tarjan) - Coq formalizations of algorithms originally due to Kosaraju and Tarjan for finding strongly connected components in finite graphs.
