@@ -82,6 +82,7 @@ reasons not currently recommended for (re)use.
 - [100 famous theorems proved using Coq](https://github.com/coq-community/coq-100-theorems) - Repository tracking the theorems that have been proved in Coq from a list of 100 famous theorems.
 - [Awesome Coq](https://github.com/coq-community/awesome-coq) :star: - Curated list of awesome Coq libraries, plugins, tools, verification projects, and resources.
 - [Coq'Art](https://github.com/coq-community/coq-art) - Coq code and exercises from the Coq'Art book.
+- [Coq Plugin Template](https://github.com/coq-community/coq-plugin-template) - Template repository for writing Coq plugins using the Dune build system, showcasing some advanced features.
 - [Hoare Tutorial](https://github.com/coq-community/hoare-tut) - Tutorial on reflecting in Coq the generation of Hoare proof obligations.
 - [Hydras & Co.](https://github.com/coq-community/hydra-battles) :star: - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq, including the Gödel-Rosser 1st incompleteness theorem (collaborative, documented, includes exercises).
 - [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
@@ -90,7 +91,8 @@ reasons not currently recommended for (re)use.
 ### Interfaces
 
 - [coqdocjs](https://github.com/coq-community/coqdocjs) - Collection of scripts to improve the HTML output of coqdoc.
-- [VSCoq](https://github.com/coq-community/vscoq) - Visual Studio Code extension for Coq.
+- [VsCoq1](https://github.com/coq-community/vscoq/tree/vscoq1) - Extension for the Visual Studio Code and VSCodium editors using Coq's legacy XML protocol.
+- [VSCoq2](https://github.com/coq-community/vscoq) :warning: - Language server and extension for the Visual Studio Code and VSCodium editors.
 
 ### Libraries
 
