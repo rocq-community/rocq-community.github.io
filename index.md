@@ -87,6 +87,7 @@ reasons not currently recommended for (re)use.
 - [Hoare Tutorial](https://github.com/coq-community/hoare-tut) - Tutorial on reflecting in Coq the generation of Hoare proof obligations.
 - [Hydras & Co.](https://github.com/coq-community/hydra-battles) :star: - Variations on Kirby and Paris' hydra battles and other entertaining math in Coq, including the Gödel-Rosser 1st incompleteness theorem (collaborative, documented, includes exercises).
 - [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
+- [Rosetta stone of metaprogramming in Coq](https://github.com/coq-community/metaprogramming-rosetta-stone) - Different examples of tactics, plugins, etc., implemented in different metaprogramming languages.
 - [Semantics](https://github.com/coq-community/semantics) - Survey of semantics styles, from natural semantics through structural operational, axiomatic, and denotational semantics, to abstract interpretation.
 
 ### Interfaces
