@@ -64,7 +64,10 @@ in particular on the process for [proposing a new package](https://github.com/co
 Below is a categorized list of active projects currently hosted in coq-community.
 A star :star: indicates that the project is recommended for (re)use, while
 a warning sign :warning: indicates that the project is experimental or for other
-reasons not currently recommended for (re)use.
+reasons not currently recommended for (re)use. Independently of stars or warnings,
+a rooster :rooster: indicates that a project is part of the
+[Coq Platform](https://github.com/coq/platform), a distribution of Coq together
+with many generally useful libraries, plugins and tools.
 
 ### Automation
 
@@ -102,20 +105,20 @@ reasons not currently recommended for (re)use.
 - [Almost Full](https://github.com/coq-community/almost-full) :warning: - Coq development of almost-full relations, including the Ramsey Theorem, useful for proving termination.
 - [Autosubst](https://github.com/coq-community/autosubst) - Coq library and tactics for parallel de Bruijn substitutions.
 - [Bits](https://github.com/coq-community/bits) :warning: - Formalization of bitset operations in Coq and the corresponding axiomatization and extraction to OCaml native integers.
-- [CoqEAL](https://github.com/coq-community/coqeal) - Framework to ease change of data representations in proofs.
-- [Coq ExtLib](https://github.com/coq-community/coq-ext-lib) :star: - Library of Coq definitions, theorems, and tactics.
+- [CoqEAL](https://github.com/coq-community/coqeal) :rooster: - Framework to ease change of data representations in proofs.
+- [Coq ExtLib](https://github.com/coq-community/coq-ext-lib) :star: :rooster: - Library of Coq definitions, theorems, and tactics.
 - [Dblib](https://github.com/coq-community/dblib) - Coq library for working with de Bruijn indices.
 - [Generic Environments](https://github.com/coq-community/generic-environments) - Library which provides an abstract data type of environments.
-- [RegLang](https://github.com/coq-community/reglang) :star: - Regular language representations in Coq.
+- [RegLang](https://github.com/coq-community/reglang) :star: :rooster: - Regular language representations in Coq.
 
 ### Plugins
 
-- [AAC Tactics](https://github.com/coq-community/aac-tactics) :star: - Coq plugin providing tactics for rewriting universally quantified equations, modulo associative (and possibly commutative) operators.
+- [AAC Tactics](https://github.com/coq-community/aac-tactics) :star: :rooster: - Coq plugin providing tactics for rewriting universally quantified equations, modulo associative (and possibly commutative) operators.
 - [ATBR](https://github.com/coq-community/atbr) - Coq library and plugin tactic for deciding Kleene algebras.
-- [Bignums](https://github.com/coq-community/bignums) :star: - Coq library of arbitrarily large numbers, providing BigN, BigZ, BigQ that used to be part of the standard library.
-- [coq-dpdpgraph](https://github.com/coq-community/coq-dpdgraph) - Plugin and tools for obtaining dependencies between Coq objects (definitions, theorems) and produce graphs.
-- [Paramcoq](https://github.com/coq-community/paramcoq) - Coq plugin for parametricity.
-- [Reduction Effects](https://github.com/coq-community/reduction-effects) :warning: - Coq plugin to add side effects to some Coq reduction strategies.
+- [Bignums](https://github.com/coq-community/bignums) :star: :rooster: - Coq library of arbitrarily large numbers, providing BigN, BigZ, BigQ that used to be part of the standard library.
+- [coq-dpdpgraph](https://github.com/coq-community/coq-dpdgraph) :rooster: - Plugin and tools for obtaining dependencies between Coq objects (definitions, theorems) and produce graphs.
+- [Paramcoq](https://github.com/coq-community/paramcoq) :rooster: - Coq plugin for parametricity.
+- [Reduction Effects](https://github.com/coq-community/reduction-effects) :warning: :rooster: - Coq plugin to add side effects to some Coq reduction strategies.
 
 ### Tools
 
@@ -127,14 +130,14 @@ reasons not currently recommended for (re)use.
 - [Apery](https://github.com/coq-community/apery) - Proof in Coq, by computer algebra, that the real number ζ(3), known as Apéry's constant, is irrational.
 - [Binary Rational Numbers](https://github.com/coq-community/qarith-stern-brocot) - Coq development of rational numbers as finite binary lists.
 - [Completeness and Decidability of Modal Logic Calculi](https://github.com/coq-community/comp-dec-modal) - Constructive proofs of soundness and completeness for the modal logics K, K*, CTL, PDL, and PDL with converse.
-- [CoRN](https://github.com/coq-community/corn) :star: - Repository of constructive mathematics formalized in Coq, including the algebraic hierarchy and real calculus.
+- [CoRN](https://github.com/coq-community/corn) :star: :rooster: - Repository of constructive mathematics formalized in Coq, including the algebraic hierarchy and real calculus.
 - [Coqtail](https://github.com/coq-community/coqtail-math) - Library of mathematical theorems and tools in Coq, ranging from arithmetic to real and complex analysis.
 - [Exact real arithmetic](https://github.com/coq-community/exact-real-arithmetic) :warning: - Exact real arithmetic in Coq.
 - [Four Color Theorem](https://github.com/coq-community/fourcolor) :star: - Formal proof in Coq of the Four Color Theorem, a landmark result in graph theory.
 - [Gaia](https://github.com/coq-community/gaia) :star: - Implementation of books from Bourbaki's Elements of Mathematics in Coq.
 - [Graph Theory](https://github.com/coq-community/graph-theory) - Library of formalized graph theory results in Coq.
 - [High School Geometry](https://github.com/coq-community/HighSchoolGeometry) - Geometry in Coq for French high school.
-- [Math Classes](https://github.com/coq-community/math-classes) :star: - Library of abstract interfaces for mathematical structures in Coq.
+- [Math Classes](https://github.com/coq-community/math-classes) :star: :rooster: - Library of abstract interfaces for mathematical structures in Coq.
 - [Pocklington](https://github.com/coq-community/pocklington) - Pocklington's criterion for primality in Coq.
 - [Topology](https://github.com/coq-community/topology) - General topology and set theory in Coq.
 
