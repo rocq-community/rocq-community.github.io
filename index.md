@@ -95,9 +95,10 @@ with many generally useful libraries, plugins and tools.
 
 ### Interfaces
 
+- [Conceal for VSCode](https://github.com/coq-community/vsc-conceal) - Prettify symbols mode for the Visual Studio Code and VSCodium editors.
 - [coqdocjs](https://github.com/coq-community/coqdocjs) - Collection of scripts to improve the HTML output of coqdoc.
-- [VsCoq1](https://github.com/coq-community/vscoq/tree/vscoq1) - Extension for the Visual Studio Code and VSCodium editors using Coq's legacy XML protocol.
-- [VSCoq2](https://github.com/coq-community/vscoq) :warning: - Language server and extension for the Visual Studio Code and VSCodium editors.
+- [VsCoq Legacy](https://github.com/coq-community/vscoq/tree/vscoq1) - Backwards-compatible extension for the Visual Studio Code and VSCodium editors using Coq's legacy XML protocol.
+- [VSCoq](https://github.com/coq-community/vscoq) - Language server and extension for the Visual Studio Code and VSCodium editors.
 
 ### Libraries
 
@@ -109,6 +110,7 @@ with many generally useful libraries, plugins and tools.
 - [Coq ExtLib](https://github.com/coq-community/coq-ext-lib) :star: :rooster: - Library of Coq definitions, theorems, and tactics.
 - [Dblib](https://github.com/coq-community/dblib) - Coq library for working with de Bruijn indices.
 - [Generic Environments](https://github.com/coq-community/generic-environments) - Library which provides an abstract data type of environments.
+- [Parseque](https://github.com/coq-community/parseque) - Total parser combinators library, port of agdarsec.
 - [RegLang](https://github.com/coq-community/reglang) :star: :rooster: - Regular language representations in Coq.
 
 ### Plugins
@@ -118,7 +120,8 @@ with many generally useful libraries, plugins and tools.
 - [Bignums](https://github.com/coq-community/bignums) :star: :rooster: - Coq library of arbitrarily large numbers, providing BigN, BigZ, BigQ that used to be part of the standard library.
 - [coq-dpdpgraph](https://github.com/coq-community/coq-dpdgraph) :rooster: - Plugin and tools for obtaining dependencies between Coq objects (definitions, theorems) and produce graphs.
 - [Paramcoq](https://github.com/coq-community/paramcoq) :rooster: - Coq plugin for parametricity.
-- [Reduction Effects](https://github.com/coq-community/reduction-effects) :warning: :rooster: - Coq plugin to add side effects to some Coq reduction strategies.
+- [Reduction Effects](https://github.com/coq-community/reduction-effects) :warning: :rooster: - Plugin to add side effects to some Coq reduction strategies.
+- [Trocq](https://github.com/coq-community/trocq) :warning: - Modular parametricity plugin for proof transfer using univalence.
 
 ### Tools
 
