@@ -1,5 +1,5 @@
 ---
-title: coq-community
+title: Coq-community
 lang: en
 header-includes:
   - |
@@ -10,15 +10,15 @@ header-includes:
     <style type="text/css"> body { width: 1100px; margin-left: 30px; }</style>
 ---
 
-<div style="text-align:left"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" height="25" style="border:0px">
-[View coq-community on GitHub](https://github.com/coq-community/manifesto)
-<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" height="25" style="border:0px"></div>
+<div style="text-align:left"><img src="github-mark.png" height="25" style="border:0px">
+ <a href="https://github.com/coq-community/manifesto">View Coq-community on GitHub</a>
+<img src="github-mark.png" height="25" style="border:0px"></div>
 
 ## About
 
 [<img src="coq-logo.svg" align="right" width="100">](https://github.com/coq-community/manifesto)
 
-coq-community is a project for a collaborative, community-driven effort for the long-term
+Coq-community is a project for a collaborative, community-driven effort for the long-term
 maintenance and advertisement of packages for the [Coq proof assistant](https://coq.inria.fr).
 The organization is run by volunteer Coq users. Everyone is welcome - you don't need to be a
 very experienced Coq user to participate. See the
@@ -27,7 +27,7 @@ for more information on how to get involved.
 
 ## Project Hosting
 
-Repositories for Coq-related projects can be hosted in the [coq-community organization on GitHub](https://github.com/coq-community)
+Repositories for Coq-related projects can be hosted in the [Coq-community organization on GitHub](https://github.com/coq-community)
 whenever any of the following is the case:
 
 - the project has become a collective work (several community members are
@@ -41,7 +41,7 @@ whenever any of the following is the case:
 - the project is a library or tool of general interest and it makes sense to
   develop it collaboratively.
 
-Once a project has joined coq-community, community members collaborate to ensure:
+Once a project has joined Coq-community, community members collaborate to ensure:
 
 - project package definitions are continuously published in Coq's [opam package index](https://coq.inria.fr/packages)
   and other relevant venues;
@@ -50,7 +50,7 @@ Once a project has joined coq-community, community members collaborate to ensure
 - projects provide rich metadata and documentation to enable application in other projects
   and in research.
 
-More details can be found in the coq-community [manifesto](https://github.com/coq-community/manifesto),
+More details can be found in the Coq-community [manifesto](https://github.com/coq-community/manifesto),
 in particular on the process for [proposing a new package](https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md#proposing-a-new-package).
 
 ## Contact
@@ -61,7 +61,7 @@ in particular on the process for [proposing a new package](https://github.com/co
 
 ## Current Projects
 
-Below is a categorized list of active projects currently hosted in coq-community.
+Below is a categorized list of active projects currently hosted in Coq-community.
 A star :star: indicates that the project is recommended for (re)use, while
 a warning sign :warning: indicates that the project is experimental or for other
 reasons not currently recommended for (re)use. Independently of stars or warnings,
