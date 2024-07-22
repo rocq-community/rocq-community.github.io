@@ -92,6 +92,7 @@ with many generally useful libraries, plugins and tools.
 - [Lemma Overloading](https://github.com/coq-community/lemma-overloading) - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.
 - [Rosetta stone of metaprogramming in Coq](https://github.com/coq-community/metaprogramming-rosetta-stone) - Different examples of tactics, plugins, etc., implemented in different metaprogramming languages.
 - [Semantics](https://github.com/coq-community/semantics) - Survey of semantics styles, from natural semantics through structural operational, axiomatic, and denotational semantics, to abstract interpretation.
+- [Tricks in Coq](https://github.com/coq-community/coq-tricks) :star: - Tips, tricks, and features in Coq that are hard to discover, including example code.
 
 ### Interfaces
 
@@ -135,6 +136,7 @@ with many generally useful libraries, plugins and tools.
 - [Completeness and Decidability of Modal Logic Calculi](https://github.com/coq-community/comp-dec-modal) - Constructive proofs of soundness and completeness for the modal logics K, K*, CTL, PDL, and PDL with converse.
 - [CoRN](https://github.com/coq-community/corn) :star: :rooster: - Repository of constructive mathematics formalized in Coq, including the algebraic hierarchy and real calculus.
 - [Coqtail](https://github.com/coq-community/coqtail-math) - Library of mathematical theorems and tools in Coq, ranging from arithmetic to real and complex analysis.
+- [Dedekind Reals](https://github.com/coq-community/dedekind-reals) - Formalization of the Dedekind real numbers in Coq.
 - [Exact real arithmetic](https://github.com/coq-community/exact-real-arithmetic) :warning: - Exact real arithmetic in Coq.
 - [Four Color Theorem](https://github.com/coq-community/fourcolor) :star: - Formal proof in Coq of the Four Color Theorem, a landmark result in graph theory.
 - [Gaia](https://github.com/coq-community/gaia) :star: - Implementation of books from Bourbaki's Elements of Mathematics in Coq.
