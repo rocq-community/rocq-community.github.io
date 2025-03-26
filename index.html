@@ -4,14 +4,164 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Coq-community</title>
+  <title>Rocq-community</title>
   <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <style type="text/css"> body {font-family: Arial, Helvetica; margin-left: 5em; font-size: large;} </style>
   <style type="text/css"> h1 {margin-left: 0em; padding: 0px; text-align: center} </style>
@@ -21,127 +171,329 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Coq-community</h1>
+<h1 class="title">Rocq-community</h1>
 </header>
 <div style="text-align:left">
-<img src="github-mark.png" height="25" style="border:0px"> <a href="https://github.com/coq-community/manifesto">View Coq-community on GitHub</a> <img src="github-mark.png" height="25" style="border:0px">
+<img src="github-mark.png" height="25" style="border:0px">
+<a href="https://github.com/rocq-community/manifesto">View
+Rocq-community on GitHub</a>
+<img src="github-mark.png" height="25" style="border:0px">
 </div>
 <h2 id="about">About</h2>
-<p><a href="https://github.com/coq-community/manifesto"><img src="coq-logo.svg" align="right" width="100"></a></p>
-<p>Coq-community is a project for a collaborative, community-driven effort for the long-term maintenance and advertisement of packages for the <a href="https://coq.inria.fr">Coq proof assistant</a>. The organization is run by volunteer Coq users. Everyone is welcome - you don’t need to be a very experienced Coq user to participate. See the <a href="https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md">contributing guide</a> for more information on how to get involved.</p>
+<p><a
+href="https://github.com/coq-community/manifesto"><img src="coq-logo.svg" align="right" width="100"></a></p>
+<p>Rocq-community is a project for a collaborative, community-driven
+effort for the long-term maintenance and advertisement of packages for
+the <a href="https://rocq-prover.org">Rocq Prover</a>. The organization
+is run by volunteer Rocq users. Everyone is welcome - you don’t need to
+be a very experienced Rocq user to participate. See the <a
+href="https://github.com/rocq-community/manifesto/blob/master/CONTRIBUTING.md">contributing
+guide</a> for more information on how to get involved.</p>
 <h2 id="project-hosting">Project Hosting</h2>
-<p>Repositories for Coq-related projects can be hosted in the <a href="https://github.com/coq-community">Coq-community organization on GitHub</a> whenever any of the following is the case:</p>
+<p>Repositories for Rocq-related projects can be hosted in the <a
+href="https://github.com/rocq-community">Rocq-community organization on
+GitHub</a> whenever any of the following is the case:</p>
 <ul>
-<li>the project has become a collective work (several community members are actively working on it);</li>
-<li>the initial author has stopped maintaining the project and someone else is volunteering to do so;</li>
-<li>the initial author is still maintaining the project but they want to encourage other community members to participate in the maintenance and possibly take over (and the project is indeed raising interest from the community);</li>
-<li>the project is a library or tool of general interest and it makes sense to develop it collaboratively.</li>
+<li>the project has become a collective work (several community members
+are actively working on it);</li>
+<li>the initial author has stopped maintaining the project and someone
+else is volunteering to do so;</li>
+<li>the initial author is still maintaining the project but they want to
+encourage other community members to participate in the maintenance and
+possibly take over (and the project is indeed raising interest from the
+community);</li>
+<li>the project is a library or tool of general interest and it makes
+sense to develop it collaboratively.</li>
 </ul>
-<p>Once a project has joined Coq-community, community members collaborate to ensure:</p>
+<p>Once a project has joined Rocq-community, community members
+collaborate to ensure:</p>
 <ul>
-<li>project package definitions are continuously published in Coq’s <a href="https://coq.inria.fr/packages">opam package index</a> and other relevant venues;</li>
-<li>projects use best practices for automation (e.g., building and continuous integration) as the project and Coq itself evolves;</li>
-<li>projects provide rich metadata and documentation to enable application in other projects and in research.</li>
+<li>project package definitions are continuously published in Rocq’s <a
+href="https://rocq-prover.org/packages">opam package index</a> and other
+relevant venues;</li>
+<li>projects use best practices for automation (e.g., building and
+continuous integration) as the project and Rocq itself evolves;</li>
+<li>projects provide rich metadata and documentation to enable
+application in other projects and in research.</li>
 </ul>
-<p>More details can be found in the Coq-community <a href="https://github.com/coq-community/manifesto">manifesto</a>, in particular on the process for <a href="https://github.com/coq-community/manifesto/blob/master/CONTRIBUTING.md#proposing-a-new-package">proposing a new package</a>.</p>
+<p>More details can be found in the Rocq-community <a
+href="https://github.com/rocq-community/manifesto">manifesto</a>, in
+particular on the process for <a
+href="https://github.com/rocq-community/manifesto/blob/master/CONTRIBUTING.md#proposing-a-new-package">proposing
+a new package</a>.</p>
 <h2 id="contact">Contact</h2>
 <ul>
-<li>Chat with us on <a href="https://coq.zulipchat.com/#narrow/stream/237663-coq-community-devs.20.26.20users">Zulip</a></li>
-<li>Volunteer and contribute on <a href="https://github.com/coq-community/manifesto/issues">GitHub</a></li>
-<li>Discuss with us on Coq’s <a href="https://coq.discourse.group">Discourse forum</a></li>
+<li>Chat with us on <a
+href="https://rocq-prover.zulipchat.com/#narrow/stream/237663-rocq-community-devs.20.26.20users">Zulip</a></li>
+<li>Volunteer and contribute on <a
+href="https://github.com/rocq-community/manifesto/issues">GitHub</a></li>
+<li>Discuss with us on Rocq’s <a
+href="https://discourse.rocq-prover.org">Discourse forum</a></li>
 </ul>
 <h2 id="current-projects">Current Projects</h2>
-<p>Below is a categorized list of active projects currently hosted in Coq-community. A star <span class="emoji" data-emoji="star">⭐</span> indicates that the project is recommended for (re)use, while a warning sign <span class="emoji" data-emoji="warning">⚠️</span> indicates that the project is experimental or for other reasons not currently recommended for (re)use. Independently of stars or warnings, a rooster <span class="emoji" data-emoji="rooster">🐓</span> indicates that a project is part of the <a href="https://github.com/coq/platform">Coq Platform</a>, a distribution of Coq together with many generally useful libraries, plugins and tools.</p>
+<p>Below is a categorized list of active projects currently hosted in
+Rocq-community. A star <span class="emoji" data-emoji="star">⭐</span>
+indicates that the project is recommended for (re)use, while a warning
+sign <span class="emoji" data-emoji="warning">⚠️</span> indicates that
+the project is experimental or for other reasons not currently
+recommended for (re)use. Independently of stars or warnings, a bird of
+prey <span class="emoji" data-emoji="eagle">🦅</span> indicates that a
+project is part of the <a href="https://github.com/coq/platform">Rocq
+Platform</a>, a distribution of the Rocq together with many generally
+useful libraries, plugins and tools.</p>
 <h3 id="automation">Automation</h3>
 <ul>
-<li><a href="https://github.com/coq-community/coq-nix-toolbox">Coq Nix Toolbox</a> - Nix helper scripts to automate local builds and CI for Coq.</li>
-<li><a href="https://github.com/coq-community/coq-performance-tests">coq-performance-tests</a> <span class="emoji" data-emoji="warning">⚠️</span> - Library of source files for testing Coq performance regressions.</li>
-<li><a href="https://github.com/coq-community/coq-performance-tests-plots-history">coq-performance-tests-plots-history</a> <span class="emoji" data-emoji="warning">⚠️</span> - Repository with plot history for Coq performance tests.</li>
-<li><a href="https://github.com/coq-community/docker-base">Docker-Base</a> - Parent image for Docker images of the Coq proof assistant.</li>
-<li><a href="https://github.com/coq-community/docker-coq">Docker-Coq</a> <span class="emoji" data-emoji="star">⭐</span> - Docker images of the Coq proof assistant.</li>
-<li><a href="https://github.com/coq-community/docker-coq-action">Docker-Coq-Action</a> <span class="emoji" data-emoji="star">⭐</span> - GitHub Action using Docker-Coq.</li>
-<li><a href="https://github.com/coq-community/run-coq-bug-minimizer">run-coq-bug-minimizer</a> <span class="emoji" data-emoji="warning">⚠️</span> - Repository for triggering runs of the Coq bug minimizer using GitHub Actions.</li>
-<li><a href="https://github.com/coq-community/templates">Templates</a> - Templates for configuration files and scripts useful for maintaining Coq projects.</li>
+<li><a href="https://github.com/rocq-community/coq-nix-toolbox">Coq Nix
+Toolbox</a> - Nix helper scripts to automate local builds and CI for
+Rocq.</li>
+<li><a
+href="https://github.com/rocq-community/coq-performance-tests">coq-performance-tests</a>
+<span class="emoji" data-emoji="warning">⚠️</span> - Library of source
+files for testing Rocq performance regressions.</li>
+<li><a
+href="https://github.com/rocq-community/coq-performance-tests-plots-history">coq-performance-tests-plots-history</a>
+<span class="emoji" data-emoji="warning">⚠️</span> - Repository with
+plot history for Rocq performance tests.</li>
+<li><a
+href="https://github.com/rocq-community/docker-base">Docker-Base</a> -
+Parent image for Docker images of the Rocq Prover and the Coq proof
+assistant.</li>
+<li><a
+href="https://github.com/rocq-community/docker-coq">Docker-Coq</a> <span
+class="emoji" data-emoji="star">⭐</span> - Docker images of the Coq
+proof assistant.</li>
+<li><a
+href="https://github.com/rocq-community/docker-coq-action">Docker-Coq-Action</a>
+<span class="emoji" data-emoji="star">⭐</span> - GitHub Action using
+Docker-Coq and Docker-Rocq.</li>
+<li><a
+href="https://github.com/rocq-community/docker-rocq">Docker-Rocq</a>
+<span class="emoji" data-emoji="star">⭐</span> - Docker images of the
+Rocq Prover.</li>
+<li><a
+href="https://github.com/rocq-community/run-coq-bug-minimizer">run-coq-bug-minimizer</a>
+<span class="emoji" data-emoji="warning">⚠️</span> - Repository for
+triggering runs of the Rocq bug minimizer using GitHub Actions.</li>
+<li><a href="https://github.com/rocq-community/templates">Templates</a>
+- Templates for configuration files and scripts useful for maintaining
+Rocq projects.</li>
 </ul>
 <h3 id="documentation-and-tutorials">Documentation and Tutorials</h3>
 <ul>
-<li><a href="https://github.com/coq-community/coq-100-theorems">100 famous theorems proved using Coq</a> - Repository tracking the theorems that have been proved in Coq from a list of 100 famous theorems.</li>
-<li><a href="https://github.com/coq-community/awesome-coq">Awesome Coq</a> <span class="emoji" data-emoji="star">⭐</span> - Curated list of awesome Coq libraries, plugins, tools, verification projects, and resources.</li>
-<li><a href="https://github.com/coq-community/coq-art">Coq’Art</a> - Coq code and exercises from the Coq’Art book.</li>
-<li><a href="https://github.com/coq-community/coq-plugin-template">Coq Plugin Template</a> - Template repository for writing Coq plugins using the Dune build system, showcasing some advanced features such as linking to an external library.</li>
-<li><a href="https://github.com/coq-community/coq-program-verification-template">Coq Program Verification Template</a> - Template repository for program verification in Coq, showcasing reasoning on CompCert’s Clight language using the Verified Software Toolchain.</li>
-<li><a href="https://github.com/coq-community/hoare-tut">Hoare Tutorial</a> - Tutorial on reflecting in Coq the generation of Hoare proof obligations.</li>
-<li><a href="https://github.com/coq-community/hydra-battles">Hydras &amp; Co.</a> <span class="emoji" data-emoji="star">⭐</span> - Variations on Kirby and Paris’ hydra battles and other entertaining math in Coq, including the Gödel-Rosser 1st incompleteness theorem (collaborative, documented, includes exercises).</li>
-<li><a href="https://github.com/coq-community/lemma-overloading">Lemma Overloading</a> - Libraries demonstrating design patterns for programming and proving with canonical structures in Coq.</li>
-<li><a href="https://github.com/coq-community/metaprogramming-rosetta-stone">Rosetta stone of metaprogramming in Coq</a> - Different examples of tactics, plugins, etc., implemented in different metaprogramming languages.</li>
-<li><a href="https://github.com/coq-community/semantics">Semantics</a> - Survey of semantics styles, from natural semantics through structural operational, axiomatic, and denotational semantics, to abstract interpretation.</li>
-<li><a href="https://github.com/coq-community/coq-tricks">Tricks in Coq</a> <span class="emoji" data-emoji="star">⭐</span> - Tips, tricks, and features in Coq that are hard to discover, including example code.</li>
+<li><a href="https://github.com/rocq-community/coq-100-theorems">100
+famous theorems proved using Coq</a> - Repository tracking the theorems
+that have been proved in Rocq from a list of 100 famous theorems.</li>
+<li><a href="https://github.com/rocq-community/awesome-coq">Awesome
+Coq</a> <span class="emoji" data-emoji="star">⭐</span> - Curated list
+of awesome Rocq libraries, plugins, tools, verification projects, and
+resources.</li>
+<li><a href="https://github.com/rocq-community/coq-art">Coq’Art</a> -
+Rocq code and exercises from the Coq’Art book.</li>
+<li><a href="https://github.com/rocq-community/coq-plugin-template">Coq
+Plugin Template</a> - Template repository for writing Rocq plugins using
+the Dune build system, showcasing some advanced features such as linking
+to an external library.</li>
+<li><a
+href="https://github.com/rocq-community/coq-program-verification-template">Coq
+Program Verification Template</a> - Template repository for program
+verification in Rocq, showcasing reasoning on CompCert’s Clight language
+using the Verified Software Toolchain.</li>
+<li><a href="https://github.com/rocq-community/hoare-tut">Hoare
+Tutorial</a> - Tutorial on reflecting in Rocq the generation of Hoare
+proof obligations.</li>
+<li><a href="https://github.com/rocq-community/hydra-battles">Hydras
+&amp; Co.</a> <span class="emoji" data-emoji="star">⭐</span> -
+Variations on Kirby and Paris’ hydra battles and other entertaining math
+in Rocq, including the Gödel-Rosser 1st incompleteness theorem
+(collaborative, documented, includes exercises).</li>
+<li><a href="https://github.com/rocq-community/lemma-overloading">Lemma
+Overloading</a> - Libraries demonstrating design patterns for
+programming and proving with canonical structures in Rocq.</li>
+<li><a
+href="https://github.com/rocq-community/metaprogramming-rosetta-stone">Rosetta
+stone of metaprogramming in Coq</a> - Different examples of tactics,
+plugins, etc., implemented in different metaprogramming languages.</li>
+<li><a href="https://github.com/rocq-community/semantics">Semantics</a>
+- Survey of semantics styles, from natural semantics through structural
+operational, axiomatic, and denotational semantics, to abstract
+interpretation.</li>
+<li><a href="https://github.com/rocq-community/coq-tricks">Tricks in
+Coq</a> <span class="emoji" data-emoji="star">⭐</span> - Tips, tricks,
+and features in Rocq that are hard to discover, including example
+code.</li>
 </ul>
 <h3 id="interfaces">Interfaces</h3>
 <ul>
-<li><a href="https://github.com/coq-community/vsc-conceal">Conceal for VSCode</a> - Prettify symbols mode for the Visual Studio Code and VSCodium editors.</li>
-<li><a href="https://github.com/coq-community/coqdocjs">coqdocjs</a> - Collection of scripts to improve the HTML output of coqdoc.</li>
-<li><a href="https://github.com/coq-community/vscoq/tree/vscoq1">VsCoq Legacy</a> - Backwards-compatible extension for the Visual Studio Code and VSCodium editors using Coq’s legacy XML protocol.</li>
-<li><a href="https://github.com/coq-community/vscoq">VSCoq</a> - Language server and extension for the Visual Studio Code and VSCodium editors.</li>
+<li><a href="https://github.com/rocq-community/vsc-conceal">Conceal for
+VSCode</a> - Prettify symbols mode for the Visual Studio Code and
+VSCodium editors.</li>
+<li><a href="https://github.com/rocq-community/coqdocjs">coqdocjs</a> -
+Collection of scripts to improve the HTML output of rocqdoc.</li>
+<li><a href="https://github.com/rocq-community/vscoq-legacy">VsCoq
+Legacy</a> - Backwards-compatible extension for the Visual Studio Code
+and VSCodium editors using Rocq’s legacy XML protocol.</li>
 </ul>
 <h3 id="libraries">Libraries</h3>
 <ul>
-<li><a href="https://github.com/coq-community/alea">ALEA</a> - Coq library for reasoning on randomized algorithms.</li>
-<li><a href="https://github.com/coq-community/almost-full">Almost Full</a> <span class="emoji" data-emoji="warning">⚠️</span> - Coq development of almost-full relations, including the Ramsey Theorem, useful for proving termination.</li>
-<li><a href="https://github.com/coq-community/autosubst">Autosubst</a> - Coq library and tactics for parallel de Bruijn substitutions.</li>
-<li><a href="https://github.com/coq-community/bits">Bits</a> <span class="emoji" data-emoji="warning">⚠️</span> - Formalization of bitset operations in Coq and the corresponding axiomatization and extraction to OCaml native integers.</li>
-<li><a href="https://github.com/coq-community/coqeal">CoqEAL</a> <span class="emoji" data-emoji="rooster">🐓</span> - Framework to ease change of data representations in proofs.</li>
-<li><a href="https://github.com/coq-community/coq-ext-lib">Coq ExtLib</a> <span class="emoji" data-emoji="star">⭐</span> <span class="emoji" data-emoji="rooster">🐓</span> - Library of Coq definitions, theorems, and tactics.</li>
-<li><a href="https://github.com/coq-community/dblib">Dblib</a> - Coq library for working with de Bruijn indices.</li>
-<li><a href="https://github.com/coq-community/generic-environments">Generic Environments</a> - Library which provides an abstract data type of environments.</li>
-<li><a href="https://github.com/coq-community/parseque">Parseque</a> - Total parser combinators library, port of agdarsec.</li>
-<li><a href="https://github.com/coq-community/reglang">RegLang</a> <span class="emoji" data-emoji="star">⭐</span> <span class="emoji" data-emoji="rooster">🐓</span> - Regular language representations in Coq.</li>
+<li><a href="https://github.com/rocq-community/alea">ALEA</a> - Rocq
+library for reasoning on randomized algorithms.</li>
+<li><a href="https://github.com/rocq-community/almost-full">Almost
+Full</a> <span class="emoji" data-emoji="warning">⚠️</span> - Rocq
+development of almost-full relations, including the Ramsey Theorem,
+useful for proving termination.</li>
+<li><a href="https://github.com/rocq-community/autosubst">Autosubst</a>
+- Rocq library and tactics for parallel de Bruijn substitutions.</li>
+<li><a href="https://github.com/rocq-community/bits">Bits</a> <span
+class="emoji" data-emoji="warning">⚠️</span> - Formalization of bitset
+operations in Rocq and the corresponding axiomatization and extraction
+to OCaml native integers.</li>
+<li><a href="https://github.com/rocq-community/coqeal">CoqEAL</a> <span
+class="emoji" data-emoji="eagle">🦅</span> - Framework to ease change of
+data representations in proofs.</li>
+<li><a href="https://github.com/rocq-community/coq-ext-lib">Coq
+ExtLib</a> <span class="emoji" data-emoji="star">⭐</span> <span
+class="emoji" data-emoji="eagle">🦅</span> - Library of Rocq
+definitions, theorems, and tactics.</li>
+<li><a href="https://github.com/rocq-community/dblib">Dblib</a> - Rocq
+library for working with de Bruijn indices.</li>
+<li><a
+href="https://github.com/rocq-community/generic-environments">Generic
+Environments</a> - Library which provides an abstract data type of
+environments.</li>
+<li><a href="https://github.com/rocq-community/parseque">Parseque</a> -
+Total parser combinators library, port of agdarsec.</li>
+<li><a href="https://github.com/rocq-community/reglang">RegLang</a>
+<span class="emoji" data-emoji="star">⭐</span> <span class="emoji"
+data-emoji="eagle">🦅</span> - Regular language representations in
+Rocq.</li>
 </ul>
 <h3 id="plugins">Plugins</h3>
 <ul>
-<li><a href="https://github.com/coq-community/aac-tactics">AAC Tactics</a> <span class="emoji" data-emoji="star">⭐</span> <span class="emoji" data-emoji="rooster">🐓</span> - Coq plugin providing tactics for rewriting universally quantified equations, modulo associative (and possibly commutative) operators.</li>
-<li><a href="https://github.com/coq-community/atbr">ATBR</a> - Coq library and plugin tactic for deciding Kleene algebras.</li>
-<li><a href="https://github.com/coq-community/bignums">Bignums</a> <span class="emoji" data-emoji="star">⭐</span> <span class="emoji" data-emoji="rooster">🐓</span> - Coq library of arbitrarily large numbers, providing BigN, BigZ, BigQ that used to be part of the standard library.</li>
-<li><a href="https://github.com/coq-community/coq-dpdgraph">coq-dpdpgraph</a> <span class="emoji" data-emoji="rooster">🐓</span> - Plugin and tools for obtaining dependencies between Coq objects (definitions, theorems) and produce graphs.</li>
-<li><a href="https://github.com/coq-community/paramcoq">Paramcoq</a> <span class="emoji" data-emoji="rooster">🐓</span> - Coq plugin for parametricity.</li>
-<li><a href="https://github.com/coq-community/reduction-effects">Reduction Effects</a> <span class="emoji" data-emoji="warning">⚠️</span> <span class="emoji" data-emoji="rooster">🐓</span> - Plugin to add side effects to some Coq reduction strategies.</li>
-<li><a href="https://github.com/coq-community/trocq">Trocq</a> <span class="emoji" data-emoji="warning">⚠️</span> - Modular parametricity plugin for proof transfer using univalence.</li>
+<li><a href="https://github.com/rocq-community/aac-tactics">AAC
+Tactics</a> <span class="emoji" data-emoji="star">⭐</span> <span
+class="emoji" data-emoji="eagle">🦅</span> - Rocq plugin providing
+tactics for rewriting universally quantified equations, modulo
+associative (and possibly commutative) operators.</li>
+<li><a href="https://github.com/rocq-community/atbr">ATBR</a> - Rocq
+library and plugin tactic for deciding Kleene algebras.</li>
+<li><a href="https://github.com/rocq-community/bignums">Bignums</a>
+<span class="emoji" data-emoji="star">⭐</span> <span class="emoji"
+data-emoji="eagle">🦅</span> - Rocq library of arbitrarily large
+numbers, providing BigN, BigZ, BigQ that used to be part of the standard
+library.</li>
+<li><a
+href="https://github.com/rocq-community/coq-dpdgraph">coq-dpdpgraph</a>
+<span class="emoji" data-emoji="eagle">🦅</span> - Plugin and tools for
+obtaining dependencies between Rocq objects (definitions, theorems) and
+produce graphs.</li>
+<li><a href="https://github.com/rocq-community/paramcoq">Paramcoq</a>
+<span class="emoji" data-emoji="eagle">🦅</span> - Rocq plugin for
+parametricity.</li>
+<li><a
+href="https://github.com/rocq-community/reduction-effects">Reduction
+Effects</a> <span class="emoji" data-emoji="warning">⚠️</span> <span
+class="emoji" data-emoji="eagle">🦅</span> - Plugin to add side effects
+to some Rocq reduction strategies.</li>
+<li><a href="https://github.com/rocq-community/trocq">Trocq</a> <span
+class="emoji" data-emoji="warning">⚠️</span> - Modular parametricity
+plugin for proof transfer using univalence.</li>
 </ul>
 <h3 id="tools">Tools</h3>
 <ul>
-<li><a href="https://github.com/coq-community/coqffi">coqffi</a> - Tool for generating Coq FFI bindings to OCaml libraries.</li>
-<li><a href="https://github.com/coq-community/proviola">Proviola</a> <span class="emoji" data-emoji="warning">⚠️</span> - Tool for reanimation of Coq proofs.</li>
+<li><a href="https://github.com/rocq-community/coqffi">coqffi</a> - Tool
+for generating Rocq FFI bindings to OCaml libraries.</li>
+<li><a href="https://github.com/rocq-community/proviola">Proviola</a>
+<span class="emoji" data-emoji="warning">⚠️</span> - Tool for
+reanimation of Rocq proofs.</li>
 </ul>
 <h3 id="type-theory-and-mathematics">Type Theory and Mathematics</h3>
 <ul>
-<li><a href="https://github.com/coq-community/apery">Apery</a> - Proof in Coq, by computer algebra, that the real number ζ(3), known as Apéry’s constant, is irrational.</li>
-<li><a href="https://github.com/coq-community/qarith-stern-brocot">Binary Rational Numbers</a> - Coq development of rational numbers as finite binary lists.</li>
-<li><a href="https://github.com/coq-community/comp-dec-modal">Completeness and Decidability of Modal Logic Calculi</a> - Constructive proofs of soundness and completeness for the modal logics K, K*, CTL, PDL, and PDL with converse.</li>
-<li><a href="https://github.com/coq-community/corn">CoRN</a> <span class="emoji" data-emoji="star">⭐</span> <span class="emoji" data-emoji="rooster">🐓</span> - Repository of constructive mathematics formalized in Coq, including the algebraic hierarchy and real calculus.</li>
-<li><a href="https://github.com/coq-community/coqtail-math">Coqtail</a> - Library of mathematical theorems and tools in Coq, ranging from arithmetic to real and complex analysis.</li>
-<li><a href="https://github.com/coq-community/dedekind-reals">Dedekind Reals</a> - Formalization of the Dedekind real numbers in Coq.</li>
-<li><a href="https://github.com/coq-community/exact-real-arithmetic">Exact real arithmetic</a> <span class="emoji" data-emoji="warning">⚠️</span> - Exact real arithmetic in Coq.</li>
-<li><a href="https://github.com/coq-community/fourcolor">Four Color Theorem</a> <span class="emoji" data-emoji="star">⭐</span> - Formal proof in Coq of the Four Color Theorem, a landmark result in graph theory.</li>
-<li><a href="https://github.com/coq-community/gaia">Gaia</a> <span class="emoji" data-emoji="star">⭐</span> - Implementation of books from Bourbaki’s Elements of Mathematics in Coq.</li>
-<li><a href="https://github.com/coq-community/graph-theory">Graph Theory</a> - Library of formalized graph theory results in Coq.</li>
-<li><a href="https://github.com/coq-community/HighSchoolGeometry">High School Geometry</a> - Geometry in Coq for French high school.</li>
-<li><a href="https://github.com/coq-community/math-classes">Math Classes</a> <span class="emoji" data-emoji="star">⭐</span> <span class="emoji" data-emoji="rooster">🐓</span> - Library of abstract interfaces for mathematical structures in Coq.</li>
-<li><a href="https://github.com/coq-community/pocklington">Pocklington</a> - Pocklington’s criterion for primality in Coq.</li>
-<li><a href="https://github.com/coq-community/topology">Topology</a> - General topology and set theory in Coq.</li>
+<li><a href="https://github.com/rocq-community/apery">Apery</a> - Proof
+in Rocq, by computer algebra, that the real number ζ(3), known as
+Apéry’s constant, is irrational.</li>
+<li><a
+href="https://github.com/rocq-community/qarith-stern-brocot">Binary
+Rational Numbers</a> - Rocq development of rational numbers as finite
+binary lists.</li>
+<li><a
+href="https://github.com/rocq-community/comp-dec-modal">Completeness and
+Decidability of Modal Logic Calculi</a> - Constructive proofs of
+soundness and completeness for the modal logics K, K*, CTL, PDL, and PDL
+with converse.</li>
+<li><a href="https://github.com/rocq-community/corn">CoRN</a> <span
+class="emoji" data-emoji="star">⭐</span> <span class="emoji"
+data-emoji="eagle">🦅</span> - Repository of constructive mathematics
+formalized in Rocq, including the algebraic hierarchy and real
+calculus.</li>
+<li><a href="https://github.com/rocq-community/coqtail-math">Coqtail</a>
+- Library of mathematical theorems and tools in Rocq, ranging from
+arithmetic to real and complex analysis.</li>
+<li><a href="https://github.com/rocq-community/dedekind-reals">Dedekind
+Reals</a> - Formalization of the Dedekind real numbers in Rocq.</li>
+<li><a
+href="https://github.com/rocq-community/exact-real-arithmetic">Exact
+real arithmetic</a> <span class="emoji" data-emoji="warning">⚠️</span> -
+Exact real arithmetic in Rocq.</li>
+<li><a href="https://github.com/rocq-community/fourcolor">Four Color
+Theorem</a> <span class="emoji" data-emoji="star">⭐</span> - Formal
+proof in Rocq of the Four Color Theorem, a landmark result in graph
+theory.</li>
+<li><a href="https://github.com/rocq-community/gaia">Gaia</a> <span
+class="emoji" data-emoji="star">⭐</span> - Implementation of books from
+Bourbaki’s Elements of Mathematics in Rocq.</li>
+<li><a href="https://github.com/rocq-community/graph-theory">Graph
+Theory</a> - Library of formalized graph theory results in Rocq.</li>
+<li><a href="https://github.com/rocq-community/HighSchoolGeometry">High
+School Geometry</a> - Geometry in Rocq for French high school.</li>
+<li><a href="https://github.com/rocq-community/math-classes">Math
+Classes</a> <span class="emoji" data-emoji="star">⭐</span> <span
+class="emoji" data-emoji="eagle">🦅</span> - Library of abstract
+interfaces for mathematical structures in Rocq.</li>
+<li><a
+href="https://github.com/rocq-community/pocklington">Pocklington</a> -
+Pocklington’s criterion for primality in Rocq.</li>
+<li><a href="https://github.com/rocq-community/topology">Topology</a> -
+General topology and set theory in Rocq.</li>
 </ul>
 <h3 id="verified-software">Verified Software</h3>
 <ul>
-<li><a href="https://github.com/coq-community/bertrand">Bertrand</a> - Coq proof of Bertrand’s postulate on existence of primes, with an application to the correctness of Knuth’s algorithm for prime numbers.</li>
-<li><a href="https://github.com/coq-community/buchberger">Buchberger</a> - Verified implementation of Buchberger’s algorithm for computing Gröbner bases in Coq.</li>
-<li><a href="https://github.com/coq-community/coqoban">Coqoban</a> - Coq implementation of Sokoban, the Japanese warehouse keepers’ game.</li>
-<li><a href="https://github.com/coq-community/chapar">Chapar</a> <span class="emoji" data-emoji="warning">⚠️</span> - Framework for verification of causal consistency for distributed key-value stores and their clients in Coq.</li>
-<li><a href="https://github.com/coq-community/huffman">Huffman</a> <span class="emoji" data-emoji="star">⭐</span> - Correctness proof of the Huffman coding algorithm in Coq.</li>
-<li><a href="https://github.com/coq-community/jmlcoq">JMLCoq</a> <span class="emoji" data-emoji="warning">⚠️</span> - Coq definition of JML and a verified runtime assertion checker.</li>
-<li><a href="https://github.com/coq-community/coq-mmaps">Modular Finite Maps over Ordered Types</a> - Several implementations of finite maps over arbitrary ordered types using Coq functors, including using red-black trees and AVL trees.</li>
-<li><a href="https://github.com/coq-community/regexp-Brzozowski">Regexp Brzozowski</a> <span class="emoji" data-emoji="warning">⚠️</span> - Decision procedures in Coq for regular expression equivalence.</li>
-<li><a href="https://github.com/coq-community/stalmarck">Stalmarck</a> - Verified implementation in Coq of Stålmarck’s algorithm for proving tautologies.</li>
-<li><a href="https://github.com/coq-community/sudoku">Sudoku</a> - Certified Sudoku solver in Coq.</li>
-<li><a href="https://github.com/coq-community/tarjan">Tarjan and Kosaraju</a> - Coq formalizations of algorithms originally due to Kosaraju and Tarjan for finding strongly connected components in finite graphs.</li>
+<li><a href="https://github.com/rocq-community/bertrand">Bertrand</a> -
+Rocq proof of Bertrand’s postulate on existence of primes, with an
+application to the correctness of Knuth’s algorithm for prime
+numbers.</li>
+<li><a
+href="https://github.com/rocq-community/buchberger">Buchberger</a> -
+Verified implementation of Buchberger’s algorithm for computing Gröbner
+bases in Rocq.</li>
+<li><a href="https://github.com/rocq-community/coqoban">Coqoban</a> -
+Rocq implementation of Sokoban, the Japanese warehouse keepers’
+game.</li>
+<li><a href="https://github.com/rocq-community/chapar">Chapar</a> <span
+class="emoji" data-emoji="warning">⚠️</span> - Framework for
+verification of causal consistency for distributed key-value stores and
+their clients in Rocq.</li>
+<li><a href="https://github.com/rocq-community/huffman">Huffman</a>
+<span class="emoji" data-emoji="star">⭐</span> - Correctness proof of
+the Huffman coding algorithm in Rocq.</li>
+<li><a href="https://github.com/rocq-community/jmlcoq">JMLCoq</a> <span
+class="emoji" data-emoji="warning">⚠️</span> - Rocq definition of JML
+and a verified runtime assertion checker.</li>
+<li><a href="https://github.com/rocq-community/mmaps">Modular Finite
+Maps over Ordered Types</a> - Several implementations of finite maps
+over arbitrary ordered types using Rocq functors, including using
+red-black trees and AVL trees.</li>
+<li><a href="https://github.com/rocq-community/regexp-Brzozowski">Regexp
+Brzozowski</a> <span class="emoji" data-emoji="warning">⚠️</span> -
+Decision procedures in Rocq for regular expression equivalence.</li>
+<li><a href="https://github.com/rocq-community/stalmarck">Stalmarck</a>
+- Verified implementation in Rocq of Stålmarck’s algorithm for proving
+tautologies.</li>
+<li><a href="https://github.com/rocq-community/sudoku">Sudoku</a> -
+Certified Sudoku solver in Rocq.</li>
+<li><a href="https://github.com/rocq-community/tarjan">Tarjan and
+Kosaraju</a> - Rocq formalizations of algorithms originally due to
+Kosaraju and Tarjan for finding strongly connected components in finite
+graphs.</li>
 </ul>
 </body>
 </html>
