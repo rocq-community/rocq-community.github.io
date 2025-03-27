@@ -67,7 +67,7 @@ A star :star: indicates that the project is recommended for (re)use, while
 a warning sign :warning: indicates that the project is experimental or for other
 reasons not currently recommended for (re)use. Independently of stars or warnings,
 a bird of prey :eagle: indicates that a project is part of the
-[Rocq Platform](https://github.com/coq/platform), a distribution of the Rocq together
+[Rocq Platform](https://github.com/coq/platform), a distribution of the Rocq Prover together
 with many generally useful libraries, plugins and tools.
 
 ### Automation
