@@ -1,4 +1,4 @@
-# coq-community website
+# Rocq-community website
 
 Entries are currently added manually to `index.md`.
 The file `index.html` is generated using
